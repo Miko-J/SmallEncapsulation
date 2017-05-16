@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7091F11EC98424004103BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F01EC98424004103BD /* main.m */; };
+		EE7091F41EC98424004103BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F31EC98424004103BD /* AppDelegate.m */; };
+		EE7091F71EC98424004103BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F61EC98424004103BD /* ViewController.m */; };
+		EE7091FA1EC98424004103BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091F81EC98424004103BD /* Main.storyboard */; };
+		EE7091FC1EC98424004103BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7091FB1EC98424004103BD /* Assets.xcassets */; };
+		EE7091FF1EC98424004103BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */; };
+		EE70920A1EC98424004103BD /* ___demonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092091EC98424004103BD /* ___demonTests.m */; };
+		EE7092151EC98424004103BD /* ___demonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092141EC98424004103BD /* ___demonUITests.m */; };
+		EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092241EC984BE004103BD /* CountdownTimer.m */; };
+		EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */; };
+		EE70922B1EC984BE004103BD /* ScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092281EC984BE004103BD /* ScreenAdaptation.m */; };
+		EE7092311EC98564004103BD /* TableListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092301EC98564004103BD /* TableListController.m */; };
+		EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */; };
+		EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092371EC987C3004103BD /* CountdownViewController.m */; };
+		EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70923A1EC987EC004103BD /* CommonlyUsedViewController.m */; };
+		EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092411EC9C632004103BD /* NSData+encapsulationData.m */; };
+		EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092431EC9C632004103BD /* NSDate+encapsulation.m */; };
+		EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092451EC9C632004103BD /* NSNumber+encapsulationData.m */; };
+		EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092471EC9C632004103BD /* NSString+encapsulationNsstring.m */; };
+		EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092491EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m */; };
+		EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70924B1EC9C632004103BD /* UIButton+encapsulationBtn.m */; };
+		EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70924D1EC9C632004103BD /* UIColor+encapsulationUIColor.m */; };
+		EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70924F1EC9C632004103BD /* UIImage+encapsulationImage.m */; };
+		EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */; };
+		EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */; };
+		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7092061EC98424004103BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7091E41EC98424004103BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7091EB1EC98424004103BD;
+			remoteInfo = "小封装demon";
+		};
+		EE7092111EC98424004103BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7091E41EC98424004103BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7091EB1EC98424004103BD;
+			remoteInfo = "小封装demon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE7091EC1EC98424004103BD /* 小封装demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小封装demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7091F01EC98424004103BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7091F21EC98424004103BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE7091F31EC98424004103BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE7091F51EC98424004103BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE7091F61EC98424004103BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE7091F91EC98424004103BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7091FB1EC98424004103BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7091FE1EC98424004103BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7092001EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7092051EC98424004103BD /* 小封装demonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7092091EC98424004103BD /* ___demonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonTests.m"; sourceTree = "<group>"; };
+		EE70920B1EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7092101EC98424004103BD /* 小封装demonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonUITests.m"; sourceTree = "<group>"; };
+		EE7092161EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7092231EC984BE004103BD /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
+		EE7092241EC984BE004103BD /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
+		EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncapsulationSystemControls.h; sourceTree = "<group>"; };
+		EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncapsulationSystemControls.m; sourceTree = "<group>"; };
+		EE7092271EC984BE004103BD /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenAdaptation.h; sourceTree = "<group>"; };
+		EE7092281EC984BE004103BD /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenAdaptation.m; sourceTree = "<group>"; };
+		EE70922F1EC98564004103BD /* TableListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableListController.h; path = ../TableListController.h; sourceTree = "<group>"; };
+		EE7092301EC98564004103BD /* TableListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableListController.m; path = ../TableListController.m; sourceTree = "<group>"; };
+		EE7092331EC98794004103BD /* ScreenSdaptationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSdaptationViewController.h; sourceTree = "<group>"; };
+		EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSdaptationViewController.m; sourceTree = "<group>"; };
+		EE7092361EC987C3004103BD /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		EE7092371EC987C3004103BD /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		EE7092391EC987EC004103BD /* CommonlyUsedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonlyUsedViewController.h; sourceTree = "<group>"; };
+		EE70923A1EC987EC004103BD /* CommonlyUsedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonlyUsedViewController.m; sourceTree = "<group>"; };
+		EE7092401EC9C632004103BD /* NSData+encapsulationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+encapsulationData.h"; sourceTree = "<group>"; };
+		EE7092411EC9C632004103BD /* NSData+encapsulationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+encapsulationData.m"; sourceTree = "<group>"; };
+		EE7092421EC9C632004103BD /* NSDate+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+encapsulation.h"; sourceTree = "<group>"; };
+		EE7092431EC9C632004103BD /* NSDate+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+encapsulation.m"; sourceTree = "<group>"; };
+		EE7092441EC9C632004103BD /* NSNumber+encapsulationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+encapsulationData.h"; sourceTree = "<group>"; };
+		EE7092451EC9C632004103BD /* NSNumber+encapsulationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+encapsulationData.m"; sourceTree = "<group>"; };
+		EE7092461EC9C632004103BD /* NSString+encapsulationNsstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encapsulationNsstring.h"; sourceTree = "<group>"; };
+		EE7092471EC9C632004103BD /* NSString+encapsulationNsstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encapsulationNsstring.m"; sourceTree = "<group>"; };
+		EE7092481EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+encapsulationUIAlertController.h"; sourceTree = "<group>"; };
+		EE7092491EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+encapsulationUIAlertController.m"; sourceTree = "<group>"; };
+		EE70924A1EC9C632004103BD /* UIButton+encapsulationBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+encapsulationBtn.h"; sourceTree = "<group>"; };
+		EE70924B1EC9C632004103BD /* UIButton+encapsulationBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+encapsulationBtn.m"; sourceTree = "<group>"; };
+		EE70924C1EC9C632004103BD /* UIColor+encapsulationUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+encapsulationUIColor.h"; sourceTree = "<group>"; };
+		EE70924D1EC9C632004103BD /* UIColor+encapsulationUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+encapsulationUIColor.m"; sourceTree = "<group>"; };
+		EE70924E1EC9C632004103BD /* UIImage+encapsulationImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+encapsulationImage.h"; sourceTree = "<group>"; };
+		EE70924F1EC9C632004103BD /* UIImage+encapsulationImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+encapsulationImage.m"; sourceTree = "<group>"; };
+		EE7092501EC9C632004103BD /* UIImageView+encapsulationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+encapsulationImageView.h"; sourceTree = "<group>"; };
+		EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+encapsulationImageView.m"; sourceTree = "<group>"; };
+		EE7092521EC9C632004103BD /* UILabel+encapsulationlable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+encapsulationlable.h"; sourceTree = "<group>"; };
+		EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+encapsulationlable.m"; sourceTree = "<group>"; };
+		EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+encapsulationUIView.h"; sourceTree = "<group>"; };
+		EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7091E91EC98424004103BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7092021EC98424004103BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70920D1EC98424004103BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7091E31EC98424004103BD = {
+			isa = PBXGroup;
+			children = (
+				EE7092221EC984BE004103BD /* EncapsulationFile */,
+				EE70923F1EC9C632004103BD /* Category */,
+				EE7091EE1EC98424004103BD /* 小封装demon */,
+				EE7092081EC98424004103BD /* 小封装demonTests */,
+				EE7092131EC98424004103BD /* 小封装demonUITests */,
+				EE7091ED1EC98424004103BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7091ED1EC98424004103BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7091EC1EC98424004103BD /* 小封装demon.app */,
+				EE7092051EC98424004103BD /* 小封装demonTests.xctest */,
+				EE7092101EC98424004103BD /* 小封装demonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7091EE1EC98424004103BD /* 小封装demon */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092321EC98752004103BD /* FunctionDisplay */,
+				EE7091F21EC98424004103BD /* AppDelegate.h */,
+				EE7091F31EC98424004103BD /* AppDelegate.m */,
+				EE7091F51EC98424004103BD /* ViewController.h */,
+				EE7091F61EC98424004103BD /* ViewController.m */,
+				EE7091F81EC98424004103BD /* Main.storyboard */,
+				EE7091FB1EC98424004103BD /* Assets.xcassets */,
+				EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */,
+				EE7092001EC98424004103BD /* Info.plist */,
+				EE7091EF1EC98424004103BD /* Supporting Files */,
+			);
+			path = "小封装demon";
+			sourceTree = "<group>";
+		};
+		EE7091EF1EC98424004103BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7091F01EC98424004103BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7092081EC98424004103BD /* 小封装demonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092091EC98424004103BD /* ___demonTests.m */,
+				EE70920B1EC98424004103BD /* Info.plist */,
+			);
+			path = "小封装demonTests";
+			sourceTree = "<group>";
+		};
+		EE7092131EC98424004103BD /* 小封装demonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092141EC98424004103BD /* ___demonUITests.m */,
+				EE7092161EC98424004103BD /* Info.plist */,
+			);
+			path = "小封装demonUITests";
+			sourceTree = "<group>";
+		};
+		EE7092221EC984BE004103BD /* EncapsulationFile */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
+				EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */,
+				EE7092231EC984BE004103BD /* CountdownTimer.h */,
+				EE7092241EC984BE004103BD /* CountdownTimer.m */,
+				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
+				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
+			);
+			path = EncapsulationFile;
+			sourceTree = "<group>";
+		};
+		EE7092321EC98752004103BD /* FunctionDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				EE70922F1EC98564004103BD /* TableListController.h */,
+				EE7092301EC98564004103BD /* TableListController.m */,
+				EE7092391EC987EC004103BD /* CommonlyUsedViewController.h */,
+				EE70923A1EC987EC004103BD /* CommonlyUsedViewController.m */,
+				EE7092331EC98794004103BD /* ScreenSdaptationViewController.h */,
+				EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */,
+				EE7092361EC987C3004103BD /* CountdownViewController.h */,
+				EE7092371EC987C3004103BD /* CountdownViewController.m */,
+			);
+			path = FunctionDisplay;
+			sourceTree = "<group>";
+		};
+		EE70923F1EC9C632004103BD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092401EC9C632004103BD /* NSData+encapsulationData.h */,
+				EE7092411EC9C632004103BD /* NSData+encapsulationData.m */,
+				EE7092421EC9C632004103BD /* NSDate+encapsulation.h */,
+				EE7092431EC9C632004103BD /* NSDate+encapsulation.m */,
+				EE7092441EC9C632004103BD /* NSNumber+encapsulationData.h */,
+				EE7092451EC9C632004103BD /* NSNumber+encapsulationData.m */,
+				EE7092461EC9C632004103BD /* NSString+encapsulationNsstring.h */,
+				EE7092471EC9C632004103BD /* NSString+encapsulationNsstring.m */,
+				EE7092481EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.h */,
+				EE7092491EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m */,
+				EE70924A1EC9C632004103BD /* UIButton+encapsulationBtn.h */,
+				EE70924B1EC9C632004103BD /* UIButton+encapsulationBtn.m */,
+				EE70924C1EC9C632004103BD /* UIColor+encapsulationUIColor.h */,
+				EE70924D1EC9C632004103BD /* UIColor+encapsulationUIColor.m */,
+				EE70924E1EC9C632004103BD /* UIImage+encapsulationImage.h */,
+				EE70924F1EC9C632004103BD /* UIImage+encapsulationImage.m */,
+				EE7092501EC9C632004103BD /* UIImageView+encapsulationImageView.h */,
+				EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */,
+				EE7092521EC9C632004103BD /* UILabel+encapsulationlable.h */,
+				EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */,
+				EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */,
+				EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7091EB1EC98424004103BD /* 小封装demon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7092191EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demon" */;
+			buildPhases = (
+				EE7091E81EC98424004103BD /* Sources */,
+				EE7091E91EC98424004103BD /* Frameworks */,
+				EE7091EA1EC98424004103BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小封装demon";
+			productName = "小封装demon";
+			productReference = EE7091EC1EC98424004103BD /* 小封装demon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7092041EC98424004103BD /* 小封装demonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE70921C1EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demonTests" */;
+			buildPhases = (
+				EE7092011EC98424004103BD /* Sources */,
+				EE7092021EC98424004103BD /* Frameworks */,
+				EE7092031EC98424004103BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7092071EC98424004103BD /* PBXTargetDependency */,
+			);
+			name = "小封装demonTests";
+			productName = "小封装demonTests";
+			productReference = EE7092051EC98424004103BD /* 小封装demonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE70920F1EC98424004103BD /* 小封装demonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE70921F1EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demonUITests" */;
+			buildPhases = (
+				EE70920C1EC98424004103BD /* Sources */,
+				EE70920D1EC98424004103BD /* Frameworks */,
+				EE70920E1EC98424004103BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7092121EC98424004103BD /* PBXTargetDependency */,
+			);
+			name = "小封装demonUITests";
+			productName = "小封装demonUITests";
+			productReference = EE7092101EC98424004103BD /* 小封装demonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7091E41EC98424004103BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = niujinfeng;
+				TargetAttributes = {
+					EE7091EB1EC98424004103BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = J6NT87KVZZ;
+						ProvisioningStyle = Automatic;
+					};
+					EE7092041EC98424004103BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE7091EB1EC98424004103BD;
+					};
+					EE70920F1EC98424004103BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE7091EB1EC98424004103BD;
+					};
+				};
+			};
+			buildConfigurationList = EE7091E71EC98424004103BD /* Build configuration list for PBXProject "小封装demon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7091E31EC98424004103BD;
+			productRefGroup = EE7091ED1EC98424004103BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7091EB1EC98424004103BD /* 小封装demon */,
+				EE7092041EC98424004103BD /* 小封装demonTests */,
+				EE70920F1EC98424004103BD /* 小封装demonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7091EA1EC98424004103BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7091FF1EC98424004103BD /* LaunchScreen.storyboard in Resources */,
+				EE7091FC1EC98424004103BD /* Assets.xcassets in Resources */,
+				EE7091FA1EC98424004103BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7092031EC98424004103BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70920E1EC98424004103BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7091E81EC98424004103BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7091F71EC98424004103BD /* ViewController.m in Sources */,
+				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
+				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
+				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
+				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,
+				EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */,
+				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
+				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
+				EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */,
+				EE7092311EC98564004103BD /* TableListController.m in Sources */,
+				EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */,
+				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
+				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
+				EE70922B1EC984BE004103BD /* ScreenAdaptation.m in Sources */,
+				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
+				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
+				EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */,
+				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
+				EE7091F11EC98424004103BD /* main.m in Sources */,
+				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,
+				EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7092011EC98424004103BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70920A1EC98424004103BD /* ___demonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70920C1EC98424004103BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7092151EC98424004103BD /* ___demonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7092071EC98424004103BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7091EB1EC98424004103BD /* 小封装demon */;
+			targetProxy = EE7092061EC98424004103BD /* PBXContainerItemProxy */;
+		};
+		EE7092121EC98424004103BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7091EB1EC98424004103BD /* 小封装demon */;
+			targetProxy = EE7092111EC98424004103BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7091F81EC98424004103BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7091F91EC98424004103BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7091FE1EC98424004103BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7092171EC98424004103BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7092181EC98424004103BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE70921A1EC98424004103BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6NT87KVZZ;
+				INFOPLIST_FILE = "小封装demon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE70921B1EC98424004103BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6NT87KVZZ;
+				INFOPLIST_FILE = "小封装demon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE70921D1EC98424004103BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "小封装demonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/小封装demon.app/小封装demon";
+			};
+			name = Debug;
+		};
+		EE70921E1EC98424004103BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "小封装demonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/小封装demon.app/小封装demon";
+			};
+			name = Release;
+		};
+		EE7092201EC98424004103BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "小封装demonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "小封装demon";
+			};
+			name = Debug;
+		};
+		EE7092211EC98424004103BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "小封装demonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "小封装demon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7091E71EC98424004103BD /* Build configuration list for PBXProject "小封装demon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7092171EC98424004103BD /* Debug */,
+				EE7092181EC98424004103BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7092191EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE70921A1EC98424004103BD /* Debug */,
+				EE70921B1EC98424004103BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE70921C1EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE70921D1EC98424004103BD /* Debug */,
+				EE70921E1EC98424004103BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE70921F1EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7092201EC98424004103BD /* Debug */,
+				EE7092211EC98424004103BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7091E41EC98424004103BD /* Project object */;
+}
