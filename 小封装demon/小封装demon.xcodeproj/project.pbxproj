@@ -33,6 +33,7 @@
 		EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */; };
 		EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */; };
 		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
+		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.release.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.release.xcconfig"; sourceTree = "<group>"; };
+		7C6442B4D820BE74D510A8E3 /* Pods-小封装demon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5053486263CA89F1545FDA /* Pods____demon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____demon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7091EC1EC98424004103BD /* 小封装demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小封装demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7091F01EC98424004103BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7091F21EC98424004103BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,10 +68,10 @@
 		EE7091FE1EC98424004103BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7092001EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7092051EC98424004103BD /* 小封装demonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7092091EC98424004103BD /* ___demonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonTests.m"; sourceTree = "<group>"; };
+		EE7092091EC98424004103BD /* ___demonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___demonTests.m; sourceTree = "<group>"; };
 		EE70920B1EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7092101EC98424004103BD /* 小封装demonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonUITests.m"; sourceTree = "<group>"; };
+		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___demonUITests.m; sourceTree = "<group>"; };
 		EE7092161EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7092231EC984BE004103BD /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
 		EE7092241EC984BE004103BD /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D66F7A1C31AF4F3DCE84F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD5053486263CA89F1545FDA /* Pods____demon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D21C25DE58AB8C5A0BBFC299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C6442B4D820BE74D510A8E3 /* Pods-小封装demon.debug.xcconfig */,
+				68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE7091E31EC98424004103BD = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +163,8 @@
 				EE7092081EC98424004103BD /* 小封装demonTests */,
 				EE7092131EC98424004103BD /* 小封装demonUITests */,
 				EE7091ED1EC98424004103BD /* Products */,
+				D21C25DE58AB8C5A0BBFC299 /* Pods */,
+				3D66F7A1C31AF4F3DCE84F9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE7092191EC98424004103BD /* Build configuration list for PBXNativeTarget "小封装demon" */;
 			buildPhases = (
+				A5FE015D5BAFDA507510BC72 /* [CP] Check Pods Manifest.lock */,
 				EE7091E81EC98424004103BD /* Sources */,
 				EE7091E91EC98424004103BD /* Frameworks */,
 				EE7091EA1EC98424004103BD /* Resources */,
+				8D7706260E145551FEEA5ADC /* [CP] Embed Pods Frameworks */,
+				536D287E5090C4B03B5CB1C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,6 +409,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		536D287E5090C4B03B5CB1C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7706260E145551FEEA5ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5FE015D5BAFDA507510BC72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE7091E81EC98424004103BD /* Sources */ = {
@@ -557,6 +632,7 @@
 		};
 		EE70921A1EC98424004103BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6442B4D820BE74D510A8E3 /* Pods-小封装demon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J6NT87KVZZ;
@@ -569,6 +645,7 @@
 		};
 		EE70921B1EC98424004103BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J6NT87KVZZ;

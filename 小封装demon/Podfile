@@ -1,0 +1,8 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+use_frameworks!
+target '小封装demon' do
+
+# Customise this file, documentation can be found here:
+         pod 'ReactiveCocoa', '~> 5.0.3'
+end

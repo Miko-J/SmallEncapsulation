@@ -1,0 +1,6 @@
+framework module Pods____demon {
+  umbrella header "Pods-小封装demon-umbrella.h"
+
+  export *
+  module * { export * }
+}
