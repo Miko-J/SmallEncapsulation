@@ -16,7 +16,6 @@
     return [self boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:arrDict context:nil].size;
 }
 
-
 //base64编码
 - (instancetype)base64EncodeString{
     //1.先把字符串转换为二进制数据

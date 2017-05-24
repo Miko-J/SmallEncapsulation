@@ -9,7 +9,7 @@
 #import "CommonlyUsedViewController.h"
 #import "EncapsulationSystemControls.h"
 @interface CommonlyUsedViewController ()
-
+@property (nonatomic, assign) BOOL flag;
 @end
 
 @implementation CommonlyUsedViewController
@@ -18,19 +18,31 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"常用控件方法封装";
+    _flag = NO;
+    
+    NSMutableAttributedString *aStr = [NSMutableAttributedString attributeWithStr:@"这是一个lable"];
+    [aStr rangeWithTitle:@"这是一个" font:font4Dot7(17) color:[UIColor greenColor]];
+    [aStr rangeWithTitle:@"lable" font:font4Dot7(21) color:[UIColor redColor]];
+    
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 150, 100)];
+    lable.hidden = YES;
+    lable.attributedText = aStr;
+    [self.view addSubview:lable];
     
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom createBtnWithtitle:@"按钮" titleColor:[UIColor redColor] imageName:nil bgImageName:nil highImageName:nil selBgImageName:nil btnClickedBlock:^{
+    __weak __typeof(&*self)weakSelf = self;
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom createBtnWithtitle:@"点击按钮" titleColor:[UIColor redColor] imageName:nil bgImageName:nil highImageName:nil selBgImageName:nil btnClickedBlock:^{
         NSLog(@"点击了按钮");
+        _flag = !_flag;
+        [weakSelf showLable:lable];
     }];
     btn.frame = CGRectMake(100, 100, 100, 100);
     [self.view addSubview:btn];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)showLable:(UILabel *)lable{
+    lable.hidden = !_flag;
 }
-
 
 @end

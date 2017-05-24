@@ -256,6 +256,30 @@ typedef void (^chineseBlock)();
 
 @end
 
+
+#pragma mark: -可变字符串转lable的attributText
+@interface NSMutableAttributedString (encapsulation)
+
+/**
+ 根据传入的字符串返回一个可变字符串
+
+ @param str 传入的字符串
+ @return 返回可变字符串
+ */
++ (instancetype _Nullable )attributeWithStr:(NSString *_Nullable)str;
+
+
+/**
+ 改变可变字符串中字符的状态
+
+ @param title 传入的改变的字符
+ @param font 字符大小
+ @param color 字符颜色
+ */
+- (void)rangeWithTitle:(NSString *_Nullable)title font:(UIFont *_Nullable)font color:(UIColor *_Nullable)color;
+
+@end
+
 #pragma mark: -手势的点击事件／控件回到原来位置的手势动画／控件设置圆角／绘制分割线
 
 typedef void (^tapAction)();

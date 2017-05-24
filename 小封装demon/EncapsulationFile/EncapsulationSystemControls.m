@@ -506,6 +506,21 @@ static const char btnKey;
 
 @end
 
+#pragma mark: -可变字符串转lable的attributText
+@implementation NSMutableAttributedString (encapsulation)
+
++ (instancetype)attributeWithStr:(NSString *)str{
+    NSMutableAttributedString *attributeStr = [[NSMutableAttributedString alloc] initWithString:str];
+    return attributeStr;
+}
+
+- (void)rangeWithTitle:(NSString *)title font:(UIFont *)font color:(UIColor *)color{
+    NSRange range = [[self string]rangeOfString:title];
+    [self addAttribute:NSForegroundColorAttributeName value:color range:range];
+    [self addAttribute:NSFontAttributeName value:font range:range];
+}
+
+@end
 
 #pragma mark: -手势的点击事件
 static char tapKey;

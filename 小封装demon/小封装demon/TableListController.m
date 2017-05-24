@@ -10,6 +10,7 @@
 #import "CommonlyUsedViewController.h"
 #import "ScreenSdaptationViewController.h"   //屏幕适配
 #import "CountdownViewController.h"          //倒计时
+#import "RACTableController.h"
 @interface TableListController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -32,7 +33,6 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSLog(@"%lu",(unsigned long)_titleArray.count);
     return self.titleArray.count;
 }
 
@@ -61,7 +61,8 @@
         case 2:
             [self.navigationController pushViewController:[[CountdownViewController alloc] init] animated:YES];
             break;
-            
+        case 3:
+            [self.navigationController pushViewController:[[RACTableController alloc] init] animated:YES];
         default:
             break;
     }
@@ -69,7 +70,7 @@
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时"];
+        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法"];
     }
     return _titleArray;
 }

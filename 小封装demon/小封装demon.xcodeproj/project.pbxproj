@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */; };
+		EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168131ED593E30064AC5B /* RACBaseController.m */; };
+		EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168191ED5B6EE0064AC5B /* RACView.m */; };
+		EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4952291ED3094200706AA5 /* RACTableController.m */; };
 		EE7091F11EC98424004103BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F01EC98424004103BD /* main.m */; };
 		EE7091F41EC98424004103BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F31EC98424004103BD /* AppDelegate.m */; };
 		EE7091F71EC98424004103BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F61EC98424004103BD /* ViewController.m */; };
@@ -56,7 +60,15 @@
 /* Begin PBXFileReference section */
 		68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.release.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.release.xcconfig"; sourceTree = "<group>"; };
 		7C6442B4D820BE74D510A8E3 /* Pods-小封装demon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.debug.xcconfig"; sourceTree = "<group>"; };
-		CD5053486263CA89F1545FDA /* Pods____demon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____demon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5053486263CA89F1545FDA /* Pods____demon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____demon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+encapsulation.h"; sourceTree = "<group>"; };
+		EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+encapsulation.m"; sourceTree = "<group>"; };
+		EE3168121ED593E30064AC5B /* RACBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseController.h; sourceTree = "<group>"; };
+		EE3168131ED593E30064AC5B /* RACBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseController.m; sourceTree = "<group>"; };
+		EE3168181ED5B6EE0064AC5B /* RACView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACView.h; sourceTree = "<group>"; };
+		EE3168191ED5B6EE0064AC5B /* RACView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACView.m; sourceTree = "<group>"; };
+		EE4952281ED3094200706AA5 /* RACTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RACTableController.h; path = "小封装demon/FunctionDisplay/RACTableController.h"; sourceTree = SOURCE_ROOT; };
+		EE4952291ED3094200706AA5 /* RACTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RACTableController.m; path = "小封装demon/FunctionDisplay/RACTableController.m"; sourceTree = SOURCE_ROOT; };
 		EE7091EC1EC98424004103BD /* 小封装demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小封装demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7091F01EC98424004103BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7091F21EC98424004103BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,10 +80,10 @@
 		EE7091FE1EC98424004103BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7092001EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7092051EC98424004103BD /* 小封装demonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7092091EC98424004103BD /* ___demonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___demonTests.m; sourceTree = "<group>"; };
+		EE7092091EC98424004103BD /* ___demonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonTests.m"; sourceTree = "<group>"; };
 		EE70920B1EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7092101EC98424004103BD /* 小封装demonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___demonUITests.m; sourceTree = "<group>"; };
+		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonUITests.m"; sourceTree = "<group>"; };
 		EE7092161EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7092231EC984BE004103BD /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
 		EE7092241EC984BE004103BD /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
@@ -152,6 +164,17 @@
 				68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE49522B1ED30A5600706AA5 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				EE3168181ED5B6EE0064AC5B /* RACView.h */,
+				EE3168191ED5B6EE0064AC5B /* RACView.m */,
+				EE3168121ED593E30064AC5B /* RACBaseController.h */,
+				EE3168131ED593E30064AC5B /* RACBaseController.m */,
+			);
+			path = RAC;
 			sourceTree = "<group>";
 		};
 		EE7091E31EC98424004103BD = {
@@ -245,6 +268,9 @@
 				EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */,
 				EE7092361EC987C3004103BD /* CountdownViewController.h */,
 				EE7092371EC987C3004103BD /* CountdownViewController.m */,
+				EE4952281ED3094200706AA5 /* RACTableController.h */,
+				EE4952291ED3094200706AA5 /* RACTableController.m */,
+				EE49522B1ED30A5600706AA5 /* RAC */,
 			);
 			path = FunctionDisplay;
 			sourceTree = "<group>";
@@ -274,6 +300,8 @@
 				EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */,
 				EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */,
 				EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */,
+				EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */,
+				EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -463,15 +491,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */,
 				EE7091F71EC98424004103BD /* ViewController.m in Sources */,
 				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
 				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,
 				EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */,
+				EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */,
 				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
+				EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
 				EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */,
+				EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */,
 				EE7092311EC98564004103BD /* TableListController.m in Sources */,
 				EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */,
 				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
@@ -640,6 +672,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -653,6 +686,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
