@@ -8,6 +8,7 @@
 
 #import "RACTableController.h"
 #import "RACBaseController.h"
+#import "EncapsulationSystemControls.h"
 @interface RACTableController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -45,6 +46,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         [self.navigationController pushViewController:[[RACBaseController alloc] init] animated:YES];
+    }else{
+        [UIAlertController alertWithTitle:@"" message:@"尽情期待" target:self confirmText:@"老夫知道了"];
     }
 }
 #pragma mark：-懒加载

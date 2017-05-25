@@ -7,9 +7,7 @@
 //
 
 #import "RACView.h"
-@interface RACView()
-@property (nonatomic, weak) UIButton *btn;
-@end
+
 @implementation RACView
 
 - (instancetype)initWithFrame: (CGRect)frame
@@ -24,8 +22,11 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.btn = btn;
+    btn.titleLabel.numberOfLines = 0;
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [btn setTitle:@"点击按钮" forState:UIControlStateNormal];
+    [btn setTitle:@"textField都有值才能点击的按钮" forState:UIControlStateNormal];
+    btn.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    btn.layer.borderWidth = 1;
     [self addSubview:btn];
     @weakify(self)
     [[btn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {

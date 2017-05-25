@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ReactiveObjC.h"
 @interface RACView : UIView
+
+@property (nonatomic, weak) UIButton *btn;
 //代理
 @property (nonatomic, strong) RACSubject *delegateSingle;
 
