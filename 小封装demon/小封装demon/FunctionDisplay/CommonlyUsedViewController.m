@@ -31,7 +31,7 @@
     
     
     __weak __typeof(&*self)weakSelf = self;
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom createBtnWithtitle:@"点击按钮" titleColor:[UIColor redColor] imageName:nil bgImageName:nil highImageName:nil selBgImageName:nil btnClickedBlock:^{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom title:@"点击按钮" titleColor:[UIColor redColor] imageName:nil bgImageName:nil highImageName:nil selBgImageName:nil btnClickedBlock:^{
         NSLog(@"点击了按钮");
         _flag = !_flag;
         [weakSelf showLable:lable];

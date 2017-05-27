@@ -10,10 +10,15 @@
 		EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */; };
 		EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168131ED593E30064AC5B /* RACBaseController.m */; };
 		EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168191ED5B6EE0064AC5B /* RACView.m */; };
+		EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168221ED83A2E0064AC5B /* LoginController.m */; };
+		EE31682A1ED83B990064AC5B /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168291ED83B990064AC5B /* LoginViewModel.m */; };
+		EE31682D1ED83BB50064AC5B /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31682C1ED83BB50064AC5B /* Account.m */; };
+		EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */; };
+		EE31683A1ED973280064AC5B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE3168361ED973280064AC5B /* MBProgressHUD.bundle */; };
+		EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168381ED973280064AC5B /* MBProgressHUD.m */; };
 		EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4952291ED3094200706AA5 /* RACTableController.m */; };
 		EE7091F11EC98424004103BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F01EC98424004103BD /* main.m */; };
 		EE7091F41EC98424004103BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F31EC98424004103BD /* AppDelegate.m */; };
-		EE7091F71EC98424004103BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F61EC98424004103BD /* ViewController.m */; };
 		EE7091FA1EC98424004103BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091F81EC98424004103BD /* Main.storyboard */; };
 		EE7091FC1EC98424004103BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7091FB1EC98424004103BD /* Assets.xcassets */; };
 		EE7091FF1EC98424004103BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */; };
@@ -67,14 +72,24 @@
 		EE3168131ED593E30064AC5B /* RACBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseController.m; sourceTree = "<group>"; };
 		EE3168181ED5B6EE0064AC5B /* RACView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACView.h; sourceTree = "<group>"; };
 		EE3168191ED5B6EE0064AC5B /* RACView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACView.m; sourceTree = "<group>"; };
+		EE3168211ED83A2E0064AC5B /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = ../LoginController.h; sourceTree = "<group>"; };
+		EE3168221ED83A2E0064AC5B /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = ../LoginController.m; sourceTree = "<group>"; };
+		EE3168281ED83B990064AC5B /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		EE3168291ED83B990064AC5B /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		EE31682B1ED83BB50064AC5B /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		EE31682C1ED83BB50064AC5B /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		EE3168341ED973280064AC5B /* MBProgressHUD+XN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XN.h"; sourceTree = "<group>"; };
+		EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XN.m"; sourceTree = "<group>"; };
+		EE3168361ED973280064AC5B /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EE3168371ED973280064AC5B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EE3168381ED973280064AC5B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		EE4952281ED3094200706AA5 /* RACTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RACTableController.h; path = "小封装demon/FunctionDisplay/RACTableController.h"; sourceTree = SOURCE_ROOT; };
 		EE4952291ED3094200706AA5 /* RACTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RACTableController.m; path = "小封装demon/FunctionDisplay/RACTableController.m"; sourceTree = SOURCE_ROOT; };
 		EE7091EC1EC98424004103BD /* 小封装demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小封装demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7091F01EC98424004103BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7091F21EC98424004103BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE7091F31EC98424004103BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE7091F51EC98424004103BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE7091F61EC98424004103BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE7091F91EC98424004103BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE7091FB1EC98424004103BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE7091FE1EC98424004103BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -166,6 +181,63 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EE3168201ED839D80064AC5B /* RAC+MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EE3168241ED83A790064AC5B /* ViewModel */,
+				EE3168251ED83A790064AC5B /* Model */,
+				EE3168261ED83A790064AC5B /* View */,
+				EE3168271ED83A790064AC5B /* ViewController */,
+			);
+			path = "RAC+MVVM";
+			sourceTree = "<group>";
+		};
+		EE3168241ED83A790064AC5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE3168281ED83B990064AC5B /* LoginViewModel.h */,
+				EE3168291ED83B990064AC5B /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE3168251ED83A790064AC5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE31682B1ED83BB50064AC5B /* Account.h */,
+				EE31682C1ED83BB50064AC5B /* Account.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE3168261ED83A790064AC5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE3168271ED83A790064AC5B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE3168211ED83A2E0064AC5B /* LoginController.h */,
+				EE3168221ED83A2E0064AC5B /* LoginController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EE3168331ED973280064AC5B /* MBProgressHUD加载等待特效框 */ = {
+			isa = PBXGroup;
+			children = (
+				EE3168341ED973280064AC5B /* MBProgressHUD+XN.h */,
+				EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */,
+				EE3168361ED973280064AC5B /* MBProgressHUD.bundle */,
+				EE3168371ED973280064AC5B /* MBProgressHUD.h */,
+				EE3168381ED973280064AC5B /* MBProgressHUD.m */,
+			);
+			path = "MBProgressHUD加载等待特效框";
+			sourceTree = "<group>";
+		};
 		EE49522B1ED30A5600706AA5 /* RAC */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +245,7 @@
 				EE3168191ED5B6EE0064AC5B /* RACView.m */,
 				EE3168121ED593E30064AC5B /* RACBaseController.h */,
 				EE3168131ED593E30064AC5B /* RACBaseController.m */,
+				EE3168201ED839D80064AC5B /* RAC+MVVM */,
 			);
 			path = RAC;
 			sourceTree = "<group>";
@@ -180,6 +253,7 @@
 		EE7091E31EC98424004103BD = {
 			isa = PBXGroup;
 			children = (
+				EE3168331ED973280064AC5B /* MBProgressHUD加载等待特效框 */,
 				EE7092221EC984BE004103BD /* EncapsulationFile */,
 				EE70923F1EC9C632004103BD /* Category */,
 				EE7091EE1EC98424004103BD /* 小封装demon */,
@@ -207,8 +281,7 @@
 				EE7092321EC98752004103BD /* FunctionDisplay */,
 				EE7091F21EC98424004103BD /* AppDelegate.h */,
 				EE7091F31EC98424004103BD /* AppDelegate.m */,
-				EE7091F51EC98424004103BD /* ViewController.h */,
-				EE7091F61EC98424004103BD /* ViewController.m */,
+				EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */,
 				EE7091F81EC98424004103BD /* Main.storyboard */,
 				EE7091FB1EC98424004103BD /* Assets.xcassets */,
 				EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */,
@@ -417,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7091FF1EC98424004103BD /* LaunchScreen.storyboard in Resources */,
+				EE31683A1ED973280064AC5B /* MBProgressHUD.bundle in Resources */,
 				EE7091FC1EC98424004103BD /* Assets.xcassets in Resources */,
 				EE7091FA1EC98424004103BD /* Main.storyboard in Resources */,
 			);
@@ -492,13 +566,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */,
-				EE7091F71EC98424004103BD /* ViewController.m in Sources */,
 				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
 				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,
 				EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */,
 				EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */,
+				EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */,
+				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
 				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
 				EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
@@ -510,12 +585,15 @@
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
 				EE70922B1EC984BE004103BD /* ScreenAdaptation.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
+				EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */,
 				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
 				EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */,
 				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
 				EE7091F11EC98424004103BD /* main.m in Sources */,
 				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,
+				EE31682D1ED83BB50064AC5B /* Account.m in Sources */,
 				EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */,
+				EE31682A1ED83B990064AC5B /* LoginViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +746,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J6NT87KVZZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = "小封装demon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demon";
@@ -682,6 +762,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J6NT87KVZZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = "小封装demon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHICOMM.---demon";

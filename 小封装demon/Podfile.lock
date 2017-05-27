@@ -1,12 +1,15 @@
 PODS:
+  - Masonry (1.0.2)
   - ReactiveObjC (3.0.0)
 
 DEPENDENCIES:
+  - Masonry (~> 1.0.2)
   - ReactiveObjC (~> 3.0.0)
 
 SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
 
-PODFILE CHECKSUM: c6331ae75f981f5f89b7e8499774dec4961bd588
+PODFILE CHECKSUM: 508c3738dc8f7cd0855f69604fafdc484c4f2155
 
 COCOAPODS: 1.2.0

@@ -12,14 +12,29 @@ typedef void (^tapAction)();
 
 @interface UIView (encapsulationUIView)
 
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat y;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGSize size;
+
+
 - (void)tapGestures:(tapAction)block;
 
 
 //设置圆角
-- (void)setCornerRadiusWithView:(UIView *)view cornerRadius:(CGFloat)cornerRadius;
+- (void)setCornerRadius:(CGFloat)cornerRadius;
+
+//带边框的全局圆角
+- (void)setCornerRadius:(CGFloat)cornerRadius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
+//设置部分圆角
+- (void)setCornerRadius:(CGFloat)cornerRadius rectCorner:(UIRectCorner)rectCorner;
+//带边框的部分圆角
+- (void)setCornerRadius:(CGFloat)cornerRadius rectCorner:(UIRectCorner)rectCorner borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
 
 //画一条直线
 - (void)drawLineWithColor: (UIColor *)lineColor;
+
 #pragma mark: -控件拖动的手势动画
 /**
  *  Make view draggable.

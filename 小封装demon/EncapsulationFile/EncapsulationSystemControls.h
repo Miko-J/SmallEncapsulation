@@ -85,8 +85,9 @@ typedef void(^btnClickedBlock) (); //关联block对象（按钮的点击事件�
 
 @interface UIButton (encapsulationBtn)
 
-+ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType createBtnWithtitle:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor imageName:(NSString *_Nullable)imageName bgImageName:(NSString *_Nullable)bgImageName highImageName:(NSString *_Nullable)highImageName selBgImageName:(NSString *_Nullable)selBgImageName btnClickedBlock:(btnClickedBlock _Nullable )block;
++ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType title:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor imageName:(NSString *_Nullable)imageName bgImageName:(NSString *_Nullable)bgImageName highImageName:(NSString *_Nullable)highImageName selBgImageName:(NSString *_Nullable)selBgImageName btnClickedBlock:(btnClickedBlock _Nullable )block;
 
++ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType title:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor  disBGImageName:(NSString *_Nullable)disBGImageName normalBGImageName:(NSString *_Nullable)normalBGImageName;
 /**
  *  设置button的titleLabel和imageView的布局样式，及间距
  *
@@ -286,6 +287,12 @@ typedef void (^tapAction)();
 
 @interface UIView (encapsulationUIView)
 
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat y;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGSize size;
+
 /**
  控件手势点击的block回调
 
@@ -298,11 +305,37 @@ typedef void (^tapAction)();
 /**
  设置控件的圆角
 
- @param view 传入的view
  @param cornerRadius 圆角的值
  */
-- (void)setCornerRadiusWithView:(UIView *_Nullable)view cornerRadius:(CGFloat)cornerRadius;
+- (void)setCornerRadius:(CGFloat)cornerRadius;
 
+
+/**
+ 设置控件的圆角  边框  边框颜色
+
+ @param cornerRadius 圆角
+ @param borderWidth 边框的宽度
+ @param borderColor 边框的颜色
+ */
+- (void)setCornerRadius:(CGFloat)cornerRadius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *_Nullable)borderColor;
+/**
+ 设置部分圆角
+
+ @param cornerRadius 圆角的伐值
+ @param rectCorner 枚举变量
+ */
+- (void)setCornerRadius:(CGFloat)cornerRadius rectCorner:(UIRectCorner)rectCorner;
+
+
+/**
+ 设置控件的圆角
+
+ @param cornerRadius 圆角的伐值
+ @param rectCorner 枚举变量
+ @param borderWidth 控件的边框
+ @param borderColor 边框的颜色
+ */
+- (void)setCornerRadius:(CGFloat)cornerRadius rectCorner:(UIRectCorner)rectCorner borderWidth:(CGFloat)borderWidth borderColor:(UIColor *_Nullable)borderColor;
 /**
  绘制一条直线
 

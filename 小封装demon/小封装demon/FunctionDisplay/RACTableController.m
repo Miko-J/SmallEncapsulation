@@ -9,6 +9,7 @@
 #import "RACTableController.h"
 #import "RACBaseController.h"
 #import "EncapsulationSystemControls.h"
+#import "LoginController.h"
 @interface RACTableController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -47,7 +48,7 @@
     if (indexPath.row == 0) {
         [self.navigationController pushViewController:[[RACBaseController alloc] init] animated:YES];
     }else{
-        [UIAlertController alertWithTitle:@"" message:@"尽情期待" target:self confirmText:@"老夫知道了"];
+        [self.navigationController pushViewController:[[LoginController alloc]init] animated:YES];
     }
 }
 #pragma mark：-懒加载

@@ -19,9 +19,9 @@ typedef void(^btnClickedBlock) (); //关联block对象（按钮的点击事件�
 
 @interface UIButton (encapsulationBtn)
 
-+ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType createBtnWithtitle:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor imageName:(NSString *_Nullable)imageName bgImageName:(NSString *_Nullable)bgImageName highImageName:(NSString *_Nullable)highImageName selBgImageName:(NSString *_Nullable)selBgImageName btnClickedBlock:(btnClickedBlock _Nullable )block;
++ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType title:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor imageName:(NSString *_Nullable)imageName bgImageName:(NSString *_Nullable)bgImageName highImageName:(NSString *_Nullable)highImageName selBgImageName:(NSString *_Nullable)selBgImageName btnClickedBlock:(btnClickedBlock _Nullable )block;
 
-
++ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType title:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor  disBGImageName:(NSString *_Nullable)disBGImageName normalBGImageName:(NSString *_Nullable)normalBGImageName;
 /**
  *  设置button的titleLabel和imageView的布局样式，及间距
  *

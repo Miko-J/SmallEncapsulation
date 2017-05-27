@@ -13,7 +13,7 @@ static const char btnKey;
 
 @implementation UIButton (encapsulationBtn)
 
-+ (instancetype)buttonWithType:(UIButtonType)buttonType createBtnWithtitle:(NSString *)title titleColor:(UIColor *)titleColor imageName:(NSString *)imageName bgImageName:(NSString *)bgImageName highImageName:(NSString *)highImageName selBgImageName:(NSString *)selBgImageName btnClickedBlock:(btnClickedBlock)block{
++ (instancetype)buttonWithType:(UIButtonType)buttonType title:(NSString *)title titleColor:(UIColor *)titleColor imageName:(NSString *)imageName bgImageName:(NSString *)bgImageName highImageName:(NSString *)highImageName selBgImageName:(NSString *)selBgImageName btnClickedBlock:(btnClickedBlock)block{
     UIButton *btn = [UIButton buttonWithType:buttonType];
     [btn setTitle:title forState:UIControlStateNormal];
     [btn setTitleColor:titleColor forState:UIControlStateNormal];
@@ -35,6 +35,20 @@ static const char btnKey;
     if (block) {
         block();
     }
+}
+
++ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType title:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor  disBGImageName:(NSString *_Nullable)disBGImageName normalBGImageName:(NSString *_Nullable)normalBGImageName{
+    UIButton *btn = [UIButton buttonWithType:buttonType];
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn setTitleColor:titleColor forState:UIControlStateNormal];
+    [btn setBackgroundImage:[UIImage imageNamed:disBGImageName] forState:UIControlStateDisabled];
+    [btn setBackgroundImage:[UIImage imageNamed:normalBGImageName] forState:UIControlStateNormal];
+    return btn;
+}
+
+//重新高亮方法，去掉高亮状态
+- (void)setHighlighted:(BOOL)highlighted{
+    
 }
 
 - (void)layoutButtonWithEdgeInsetsStyle:(MKButtonEdgeInsetsStyle)style

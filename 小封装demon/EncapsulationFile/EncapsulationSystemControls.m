@@ -52,7 +52,7 @@ static const char btnKey;
 
 @implementation UIButton (encapsulationBtn)
 
-+ (instancetype)buttonWithType:(UIButtonType)buttonType createBtnWithtitle:(NSString *)title titleColor:(UIColor *)titleColor imageName:(NSString *)imageName bgImageName:(NSString *)bgImageName highImageName:(NSString *)highImageName selBgImageName:(NSString *)selBgImageName btnClickedBlock:(btnClickedBlock)block{
++ (instancetype)buttonWithType:(UIButtonType)buttonType title:(NSString *)title titleColor:(UIColor *)titleColor imageName:(NSString *)imageName bgImageName:(NSString *)bgImageName highImageName:(NSString *)highImageName selBgImageName:(NSString *)selBgImageName btnClickedBlock:(btnClickedBlock)block{
     UIButton *btn = [UIButton buttonWithType:buttonType];
     [btn setTitle:title forState:UIControlStateNormal];
     [btn setTitleColor:titleColor forState:UIControlStateNormal];
@@ -74,6 +74,19 @@ static const char btnKey;
     if (block) {
         block();
     }
+}
+
++ (instancetype _Nullable )buttonWithType:(UIButtonType)buttonType title:(NSString *_Nullable)title titleColor:(UIColor *_Nullable)titleColor  disBGImageName:(NSString *_Nullable)disBGImageName normalBGImageName:(NSString *_Nullable)normalBGImageName{
+    UIButton *btn = [UIButton buttonWithType:buttonType];
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn setTitleColor:titleColor forState:UIControlStateNormal];
+    [btn setBackgroundImage:[UIImage imageNamed:disBGImageName] forState:UIControlStateDisabled];
+    [btn setBackgroundImage:[UIImage imageNamed:normalBGImageName] forState:UIControlStateNormal];
+    return btn;
+}
+//重新高亮方法，去掉高亮状态
+- (void)setHighlighted:(BOOL)highlighted{
+
 }
 
 - (void)layoutButtonWithEdgeInsetsStyle:(MKButtonEdgeInsetsStyle)style
@@ -527,6 +540,66 @@ static char tapKey;
 
 @implementation UIView (encapsulationUIView)
 
+- (void)setX:(CGFloat)x
+{
+    CGRect frame = self.frame;
+    frame.origin.x = x;
+    self.frame = frame;
+}
+
+- (CGFloat)x
+{
+    return self.frame.origin.x;
+}
+
+- (void)setY:(CGFloat)y
+{
+    CGRect frame = self.frame;
+    frame.origin.y = y;
+    self.frame = frame;
+}
+
+- (CGFloat)y
+{
+    return self.frame.origin.y;
+}
+
+- (void)setWidth:(CGFloat)width
+{
+    CGRect frame = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
+}
+
+- (CGFloat)width
+{
+    return self.frame.size.width;
+}
+
+- (void)setHeight:(CGFloat)height
+{
+    CGRect frame = self.frame;
+    frame.size.height = height;
+    self.frame = frame;
+}
+
+- (CGFloat)height
+{
+    return self.frame.size.height;
+}
+
+- (void)setSize:(CGSize)size
+{
+    CGRect frame = self.frame;
+    frame.size = size;
+    self.frame = frame;
+}
+
+- (CGSize)size
+{
+    return self.frame.size;
+}
+
 - (void)tapGestures:(tapAction)block {
     self.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
@@ -543,17 +616,38 @@ static char tapKey;
 
 
 //设置圆角
-- (void)setCornerRadiusWithView:(UIView *)view cornerRadius:(CGFloat)cornerRadius{
-    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:view.bounds cornerRadius:cornerRadius];
+- (void)setCornerRadius:(CGFloat)cornerRadius{
     
+    [self setCornerRadius:cornerRadius rectCorner:UIRectCornerAllCorners];
+}
+
+- (void)setCornerRadius:(CGFloat)cornerRadius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor{
+    [self setCornerRadius:cornerRadius rectCorner:UIRectCornerAllCorners borderWidth:borderWidth borderColor:borderColor];
+}
+
+- (void)setCornerRadius:(CGFloat)cornerRadius rectCorner:(UIRectCorner)rectCorner{
+    
+    [self setCornerRadius:cornerRadius rectCorner:rectCorner borderWidth:0 borderColor:nil];
+}
+
+- (void)setCornerRadius:(CGFloat)cornerRadius rectCorner:(UIRectCorner)rectCorner borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor{
+    
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:rectCorner cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc]init];
+    
+    CAShapeLayer *borderLayer=[CAShapeLayer layer];
+    borderLayer.path = maskPath.CGPath;
+    borderLayer.fillColor = [UIColor clearColor].CGColor;
+    borderLayer.strokeColor = borderColor.CGColor;
+    borderLayer.lineWidth = borderWidth;
     //设置大小
-    maskLayer.frame = view.bounds;
+    maskLayer.frame = self.bounds;
     //设置图形样子
     maskLayer.path = maskPath.CGPath;
-    view.layer.mask = maskLayer;
-    [self addSubview:view];
+    self.layer.mask = maskLayer;
+    [self.layer addSublayer:borderLayer];
 }
+
 //画一条直线
 - (void)drawLineWithColor: (UIColor *)lineColor{
     UIColor *dark;
