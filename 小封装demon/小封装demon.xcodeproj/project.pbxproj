@@ -254,8 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				EE3168331ED973280064AC5B /* MBProgressHUD加载等待特效框 */,
-				EE7092221EC984BE004103BD /* EncapsulationFile */,
-				EE70923F1EC9C632004103BD /* Category */,
+				EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */,
+				EE70923F1EC9C632004103BD /* Category分类 */,
 				EE7091EE1EC98424004103BD /* 小封装demon */,
 				EE7092081EC98424004103BD /* 小封装demonTests */,
 				EE7092131EC98424004103BD /* 小封装demonUITests */,
@@ -317,7 +317,7 @@
 			path = "小封装demonUITests";
 			sourceTree = "<group>";
 		};
-		EE7092221EC984BE004103BD /* EncapsulationFile */ = {
+		EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
@@ -327,6 +327,7 @@
 				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
 				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
 			);
+			name = "EncapsulationFile封装的文件";
 			path = EncapsulationFile;
 			sourceTree = "<group>";
 		};
@@ -348,7 +349,7 @@
 			path = FunctionDisplay;
 			sourceTree = "<group>";
 		};
-		EE70923F1EC9C632004103BD /* Category */ = {
+		EE70923F1EC9C632004103BD /* Category分类 */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092401EC9C632004103BD /* NSData+encapsulationData.h */,
@@ -376,6 +377,7 @@
 				EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */,
 				EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */,
 			);
+			name = "Category分类";
 			path = Category;
 			sourceTree = "<group>";
 		};
