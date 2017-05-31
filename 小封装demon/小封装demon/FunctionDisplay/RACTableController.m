@@ -10,6 +10,7 @@
 #import "RACBaseController.h"
 #import "EncapsulationSystemControls.h"
 #import "LoginController.h"
+#import "RequestController.h"
 @interface RACTableController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -47,14 +48,18 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         [self.navigationController pushViewController:[[RACBaseController alloc] init] animated:YES];
-    }else{
+    }else if(indexPath.row == 1){
+        [UIAlertController alertWithTitle:@"提示" message:@"下次更新" target:self confirmText:@"老夫知道了"];
+    }else if(indexPath.row == 2){
         [self.navigationController pushViewController:[[LoginController alloc]init] animated:YES];
+    }else{
+        [self.navigationController pushViewController:[[RequestController alloc] init] animated:YES];
     }
 }
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = @[@"RAC基础用法",@"RAC+MVVM"];
+        _titleArray = @[@"RAC基础用法",@"RAC进阶",@"RAC+MVVM之登录实战",@"RAC+MVVM之tableView实战"];
     }
     return _titleArray;
 }
