@@ -11,6 +11,7 @@
 #import "EncapsulationSystemControls.h"
 #import "LoginController.h"
 #import "RequestController.h"
+#import "RACAdvancedController.h"
 @interface RACTableController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -49,7 +50,7 @@
     if (indexPath.row == 0) {
         [self.navigationController pushViewController:[[RACBaseController alloc] init] animated:YES];
     }else if(indexPath.row == 1){
-        [UIAlertController alertWithTitle:@"提示" message:@"下次更新" target:self confirmText:@"老夫知道了"];
+        [self.navigationController pushViewController:[[RACAdvancedController alloc] init] animated:YES];
     }else if(indexPath.row == 2){
         [self.navigationController pushViewController:[[LoginController alloc]init] animated:YES];
     }else{

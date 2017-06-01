@@ -11,6 +11,7 @@
 		EE18333A1EDE97610048658F /* RequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1833391EDE97610048658F /* RequestController.m */; };
 		EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18333C1EDE97DF0048658F /* RequestViewModel.m */; };
 		EE1833401EDE98A50048658F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18333F1EDE98A50048658F /* Book.m */; };
+		EE1833471EE0018B0048658F /* RACAdvancedController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1833461EE0018B0048658F /* RACAdvancedController.m */; };
 		EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168131ED593E30064AC5B /* RACBaseController.m */; };
 		EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168191ED5B6EE0064AC5B /* RACView.m */; };
 		EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168221ED83A2E0064AC5B /* LoginController.m */; };
@@ -77,6 +78,8 @@
 		EE18333C1EDE97DF0048658F /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
 		EE18333E1EDE98A50048658F /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		EE18333F1EDE98A50048658F /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		EE1833451EE0018B0048658F /* RACAdvancedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACAdvancedController.h; sourceTree = "<group>"; };
+		EE1833461EE0018B0048658F /* RACAdvancedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACAdvancedController.m; sourceTree = "<group>"; };
 		EE3168121ED593E30064AC5B /* RACBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseController.h; sourceTree = "<group>"; };
 		EE3168131ED593E30064AC5B /* RACBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseController.m; sourceTree = "<group>"; };
 		EE3168181ED5B6EE0064AC5B /* RACView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACView.h; sourceTree = "<group>"; };
@@ -260,6 +263,8 @@
 				EE3168191ED5B6EE0064AC5B /* RACView.m */,
 				EE3168121ED593E30064AC5B /* RACBaseController.h */,
 				EE3168131ED593E30064AC5B /* RACBaseController.m */,
+				EE1833451EE0018B0048658F /* RACAdvancedController.h */,
+				EE1833461EE0018B0048658F /* RACAdvancedController.m */,
 				EE3168201ED839D80064AC5B /* RAC+MVVM */,
 			);
 			path = RAC;
@@ -593,6 +598,7 @@
 				EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */,
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
 				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
+				EE1833471EE0018B0048658F /* RACAdvancedController.m in Sources */,
 				EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */,
 				EE1833401EDE98A50048658F /* Book.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
