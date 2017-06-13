@@ -8,11 +8,12 @@
 
 #import "CommonlyUsedViewController.h"
 #import "EncapsulationSystemControls.h"
+#import "Person.h"                           //单利类
 static int commonSize = 100;
 /*
 const与宏的区别:
 
-const简介:之前常用的字符串常量，一般是抽成宏，但是苹果不推荐我们抽成宏，推荐我们使用const常量。
+const简介:之前常用的字符串常量，一般是抽成宏，但是苹果不推荐我们抽成宏，推荐我们使用const(只读)常量。
 
 编译时刻:宏是预编译（编译之前处理），const是编译阶段。
 编译检查:宏不做检查，不会报编译错误，只是替换，const会编译检查，会报编译错误。
@@ -42,9 +43,16 @@ const简介:之前常用的字符串常量，一般是抽成宏，但是苹果�
     self.navigationItem.title = @"常用控件方法封装";
     
     NSLog(@"定义的全局变量的name = %@",name);
+    //设置ui
+    [self setUpUI];
     
+    //单利
+    [self singleton];
+
+    
+}
+- (void)setUpUI{
     _flag = NO;
-    
     NSMutableAttributedString *aStr = [NSMutableAttributedString attributeWithStr:@"这是一个lable"];
     [aStr rangeWithTitle:@"这是一个" font:font4Dot7(17) color:[UIColor greenColor]];
     [aStr rangeWithTitle:@"lable" font:font4Dot7(21) color:[UIColor redColor]];
@@ -63,11 +71,18 @@ const简介:之前常用的字符串常量，一般是抽成宏，但是苹果�
     }];
     btn.frame = CGRectMake(commonSize, commonSize, commonSize, commonSize);
     [self.view addSubview:btn];
-    
 }
-
 - (void)showLable:(UILabel *)lable{
     lable.hidden = !_flag;
 }
 
+
+//单利
+- (void)singleton{
+    Person *person1 = [Person sharedPerson];
+    
+    Person *person2 = [Person sharedPerson];
+    
+    NSLog(@"person1的地址%@,  person2的地址%@",person1,person2);
+}
 @end

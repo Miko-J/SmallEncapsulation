@@ -11,4 +11,5 @@
 
 #import "Masonry.h"
 #import "GlobeConst.h"    //全局变量
+#import "Singleton-ARC.h" // 单利
 #endif /* PrefixHeader_pch */

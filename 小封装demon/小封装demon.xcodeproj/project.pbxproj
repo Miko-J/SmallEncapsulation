@@ -47,6 +47,7 @@
 		EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */; };
 		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
 		EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */; };
+		EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF99F1EEFD06900F799E0 /* Person.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +152,9 @@
 		EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
 		EEEDF9961EEFABD200F799E0 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobeConst.h; path = FunctionDisplay/GlobeConst.h; sourceTree = "<group>"; };
 		EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
+		EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Singleton-ARC.h"; path = "FunctionDisplay/Singleton-ARC.h"; sourceTree = "<group>"; };
+		EEEDF99E1EEFD06900F799E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EEEDF99F1EEFD06900F799E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +311,7 @@
 				EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */,
 				EEEDF9961EEFABD200F799E0 /* GlobeConst.h */,
 				EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */,
+				EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */,
 				EE7091F81EC98424004103BD /* Main.storyboard */,
 				EE7091FB1EC98424004103BD /* Assets.xcassets */,
 				EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */,
@@ -369,6 +374,8 @@
 				EE7092371EC987C3004103BD /* CountdownViewController.m */,
 				EE4952281ED3094200706AA5 /* RACTableController.h */,
 				EE4952291ED3094200706AA5 /* RACTableController.m */,
+				EEEDF99E1EEFD06900F799E0 /* Person.h */,
+				EEEDF99F1EEFD06900F799E0 /* Person.m */,
 				EE49522B1ED30A5600706AA5 /* RAC */,
 			);
 			path = FunctionDisplay;
@@ -594,6 +601,7 @@
 			files = (
 				EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */,
 				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
+				EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
 				EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */,
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
