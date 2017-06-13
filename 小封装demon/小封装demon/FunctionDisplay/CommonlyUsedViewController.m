@@ -40,6 +40,9 @@ const简介:之前常用的字符串常量，一般是抽成宏，但是苹果�
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"常用控件方法封装";
+    
+    NSLog(@"定义的全局变量的name = %@",name);
+    
     _flag = NO;
     
     NSMutableAttributedString *aStr = [NSMutableAttributedString attributeWithStr:@"这是一个lable"];

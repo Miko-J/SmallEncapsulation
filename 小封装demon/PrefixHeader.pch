@@ -10,5 +10,5 @@
 #define PrefixHeader_pch
 
 #import "Masonry.h"
-
+#import "GlobeConst.h"    //全局变量
 #endif /* PrefixHeader_pch */

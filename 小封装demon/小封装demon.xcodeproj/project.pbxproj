@@ -46,6 +46,7 @@
 		EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */; };
 		EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */; };
 		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
+		EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -148,6 +149,8 @@
 		EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+encapsulationlable.m"; sourceTree = "<group>"; };
 		EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+encapsulationUIView.h"; sourceTree = "<group>"; };
 		EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
+		EEEDF9961EEFABD200F799E0 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobeConst.h; path = FunctionDisplay/GlobeConst.h; sourceTree = "<group>"; };
+		EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +305,8 @@
 				EE7091F21EC98424004103BD /* AppDelegate.h */,
 				EE7091F31EC98424004103BD /* AppDelegate.m */,
 				EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */,
+				EEEDF9961EEFABD200F799E0 /* GlobeConst.h */,
+				EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */,
 				EE7091F81EC98424004103BD /* Main.storyboard */,
 				EE7091FB1EC98424004103BD /* Assets.xcassets */,
 				EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */,
@@ -602,6 +607,7 @@
 				EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */,
 				EE1833401EDE98A50048658F /* Book.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
+				EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */,
 				EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */,
 				EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */,
 				EE7092311EC98564004103BD /* TableListController.m in Sources */,
