@@ -10,7 +10,7 @@
 
 @implementation NSMutableAttributedString (encapsulation)
 
-- (instancetype)attributeWithStr:(NSString *)str{
++ (instancetype)attributeWithStr:(NSString *)str{
     NSMutableAttributedString *attributeStr = [[NSMutableAttributedString alloc] initWithString:str];
     return attributeStr;
 }

@@ -11,7 +11,7 @@
 
 @interface NSMutableAttributedString (encapsulation)
 
-- (instancetype)attributeWithStr:(NSString *)str;
++ (instancetype)attributeWithStr:(NSString *)str;
 
 - (void)rangeWithTitle:(NSString *)title font:(UIFont *)font color:(UIColor *)color;
 
