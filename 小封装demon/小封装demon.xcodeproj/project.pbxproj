@@ -48,6 +48,7 @@
 		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
 		EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */; };
 		EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF99F1EEFD06900F799E0 /* Person.m */; };
+		EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +156,8 @@
 		EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Singleton-ARC.h"; path = "FunctionDisplay/Singleton-ARC.h"; sourceTree = "<group>"; };
 		EEEDF99E1EEFD06900F799E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		EEEDF99F1EEFD06900F799E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+encapsulation.h"; sourceTree = "<group>"; };
+		EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+encapsulation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,6 +411,8 @@
 				EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */,
 				EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */,
 				EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */,
+				EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */,
+				EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */,
 			);
 			name = "Category分类";
 			path = Category;
@@ -603,6 +608,7 @@
 				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
 				EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
+				EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */,
 				EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */,
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
 				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,

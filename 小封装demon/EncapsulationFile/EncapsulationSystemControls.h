@@ -514,3 +514,26 @@ typedef void (^CancelBtnBlock)();
 @end
 
 
+#pragma mark:  -RunTime的交换方法
+@interface NSObject (encapsulation)
+
+/**
+ *  交换对象方法
+ *
+ *  @param origSelector    原有方法
+ *  @param swizzleSelector 现有方法(自己实现方法)
+ */
++ (void)swizzleInstanceSelector:(SEL _Nullable )origSelector
+                swizzleSelector:(SEL _Nullable )swizzleSelector;
+
+/**
+ *  交换类方法
+ *
+ *  @param origSelector    原有方法
+ *  @param swizzleSelector 现有方法(自己实现方法)
+ */
++ (void)swizzleClassSelector:(SEL _Nullable )origSelector
+             swizzleSelector:(SEL _Nullable )swizzleSelector;
+@end
+
+
