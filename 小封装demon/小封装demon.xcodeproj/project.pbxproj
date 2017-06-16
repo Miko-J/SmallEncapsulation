@@ -367,9 +367,9 @@
 		EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */ = {
 			isa = PBXGroup;
 			children = (
-				EEEDF9A71EF119BF00F799E0 /* classification分类文件的封装 */,
-				EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation屏幕适配的封装 */,
-				EEEDF9A81EF119C900F799E0 /* countdownTimer倒计时的封装 */,
+				EEEDF9A71EF119BF00F799E0 /* classification */,
+				EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation */,
+				EEEDF9A81EF119C900F799E0 /* countdownTimer */,
 			);
 			name = "EncapsulationFile封装的文件";
 			path = EncapsulationFile;
@@ -430,33 +430,33 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		EEEDF9A71EF119BF00F799E0 /* classification分类文件的封装 */ = {
+		EEEDF9A71EF119BF00F799E0 /* classification */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
 				EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */,
 			);
-			name = "classification分类文件的封装";
+			name = classification;
 			path = "分类文件";
 			sourceTree = "<group>";
 		};
-		EEEDF9A81EF119C900F799E0 /* countdownTimer倒计时的封装 */ = {
+		EEEDF9A81EF119C900F799E0 /* countdownTimer */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092231EC984BE004103BD /* CountdownTimer.h */,
 				EE7092241EC984BE004103BD /* CountdownTimer.m */,
 			);
-			name = "countdownTimer倒计时的封装";
+			name = countdownTimer;
 			path = "倒计时";
 			sourceTree = "<group>";
 		};
-		EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation屏幕适配的封装 */ = {
+		EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
 				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
 			);
-			name = "ScreenAdaptation屏幕适配的封装";
+			name = ScreenAdaptation;
 			path = "屏幕适配";
 			sourceTree = "<group>";
 		};
