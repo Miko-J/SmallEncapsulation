@@ -367,9 +367,9 @@
 		EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */ = {
 			isa = PBXGroup;
 			children = (
-				EEEDF9A71EF119BF00F799E0 /* 分类文件的封装 */,
-				EEEDF9A91EF119CD00F799E0 /* 屏幕适配的封装 */,
-				EEEDF9A81EF119C900F799E0 /* 倒计时的封装 */,
+				EEEDF9A71EF119BF00F799E0 /* classification分类文件的封装 */,
+				EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation屏幕适配的封装 */,
+				EEEDF9A81EF119C900F799E0 /* countdownTimer倒计时的封装 */,
 			);
 			name = "EncapsulationFile封装的文件";
 			path = EncapsulationFile;
@@ -389,7 +389,7 @@
 				EE4952281ED3094200706AA5 /* RACTableController.h */,
 				EE4952291ED3094200706AA5 /* RACTableController.m */,
 				EEFD0D5B1EF386B60068F54A /* 单利的封装和用法 */,
-				EEFD0D5A1EF386790068F54A /* 算法 */,
+				EEFD0D5A1EF386790068F54A /* 排序算法 */,
 				EE49522B1ED30A5600706AA5 /* RAC */,
 			);
 			name = "FunctionDisplay功能展示";
@@ -430,37 +430,37 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		EEEDF9A71EF119BF00F799E0 /* 分类文件的封装 */ = {
+		EEEDF9A71EF119BF00F799E0 /* classification分类文件的封装 */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
 				EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */,
 			);
-			name = "分类文件的封装";
+			name = "classification分类文件的封装";
 			path = "分类文件";
 			sourceTree = "<group>";
 		};
-		EEEDF9A81EF119C900F799E0 /* 倒计时的封装 */ = {
+		EEEDF9A81EF119C900F799E0 /* countdownTimer倒计时的封装 */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092231EC984BE004103BD /* CountdownTimer.h */,
 				EE7092241EC984BE004103BD /* CountdownTimer.m */,
 			);
-			name = "倒计时的封装";
+			name = "countdownTimer倒计时的封装";
 			path = "倒计时";
 			sourceTree = "<group>";
 		};
-		EEEDF9A91EF119CD00F799E0 /* 屏幕适配的封装 */ = {
+		EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation屏幕适配的封装 */ = {
 			isa = PBXGroup;
 			children = (
 				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
 				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
 			);
-			name = "屏幕适配的封装";
+			name = "ScreenAdaptation屏幕适配的封装";
 			path = "屏幕适配";
 			sourceTree = "<group>";
 		};
-		EEFD0D5A1EF386790068F54A /* 算法 */ = {
+		EEFD0D5A1EF386790068F54A /* 排序算法 */ = {
 			isa = PBXGroup;
 			children = (
 				EEFD0D5C1EF387A80068F54A /* AlgorithmTableController.h */,
@@ -474,6 +474,7 @@
 				EEFD0D6A1EF3CB680068F54A /* InsertSortController.h */,
 				EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */,
 			);
+			name = "排序算法";
 			path = "算法";
 			sourceTree = "<group>";
 		};
