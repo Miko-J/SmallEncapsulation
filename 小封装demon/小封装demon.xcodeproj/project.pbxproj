@@ -28,9 +28,6 @@
 		EE7091FF1EC98424004103BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */; };
 		EE70920A1EC98424004103BD /* ___demonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092091EC98424004103BD /* ___demonTests.m */; };
 		EE7092151EC98424004103BD /* ___demonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092141EC98424004103BD /* ___demonUITests.m */; };
-		EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092241EC984BE004103BD /* CountdownTimer.m */; };
-		EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */; };
-		EE70922B1EC984BE004103BD /* ScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092281EC984BE004103BD /* ScreenAdaptation.m */; };
 		EE7092311EC98564004103BD /* TableListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092301EC98564004103BD /* TableListController.m */; };
 		EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */; };
 		EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092371EC987C3004103BD /* CountdownViewController.m */; };
@@ -54,6 +51,9 @@
 		EEFD0D641EF389850068F54A /* BubblingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D631EF389850068F54A /* BubblingController.m */; };
 		EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D661EF3AB530068F54A /* SelectionSortController.m */; };
 		EEFD0D6C1EF3CB680068F54A /* InsertSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */; };
+		EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D811EF3EE780068F54A /* CountdownTimer.m */; };
+		EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */; };
+		EEFD0D8A1EF3EE780068F54A /* ScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,12 +120,6 @@
 		EE7092101EC98424004103BD /* 小封装demonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonUITests.m"; sourceTree = "<group>"; };
 		EE7092161EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE7092231EC984BE004103BD /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountdownTimer.h; path = ../CountdownTimer.h; sourceTree = "<group>"; };
-		EE7092241EC984BE004103BD /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountdownTimer.m; path = ../CountdownTimer.m; sourceTree = "<group>"; };
-		EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncapsulationSystemControls.h; path = ../EncapsulationSystemControls.h; sourceTree = "<group>"; };
-		EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncapsulationSystemControls.m; path = ../EncapsulationSystemControls.m; sourceTree = "<group>"; };
-		EE7092271EC984BE004103BD /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenAdaptation.h; path = ../ScreenAdaptation.h; sourceTree = "<group>"; };
-		EE7092281EC984BE004103BD /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenAdaptation.m; path = ../ScreenAdaptation.m; sourceTree = "<group>"; };
 		EE70922F1EC98564004103BD /* TableListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableListController.h; path = ../TableListController.h; sourceTree = "<group>"; };
 		EE7092301EC98564004103BD /* TableListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableListController.m; path = ../TableListController.m; sourceTree = "<group>"; };
 		EE7092331EC98794004103BD /* ScreenSdaptationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSdaptationViewController.h; sourceTree = "<group>"; };
@@ -173,6 +167,12 @@
 		EEFD0D661EF3AB530068F54A /* SelectionSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSortController.m; sourceTree = "<group>"; };
 		EEFD0D6A1EF3CB680068F54A /* InsertSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSortController.h; sourceTree = "<group>"; };
 		EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSortController.m; sourceTree = "<group>"; };
+		EEFD0D801EF3EE780068F54A /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
+		EEFD0D811EF3EE780068F54A /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
+		EEFD0D831EF3EE780068F54A /* EncapsulationSystemControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncapsulationSystemControls.h; sourceTree = "<group>"; };
+		EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncapsulationSystemControls.m; sourceTree = "<group>"; };
+		EEFD0D861EF3EE780068F54A /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenAdaptation.h; sourceTree = "<group>"; };
+		EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenAdaptation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,9 +367,9 @@
 		EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */ = {
 			isa = PBXGroup;
 			children = (
-				EEEDF9A71EF119BF00F799E0 /* classification */,
-				EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation */,
-				EEEDF9A81EF119C900F799E0 /* countdownTimer */,
+				EEFD0D7F1EF3EE780068F54A /* 倒计时 */,
+				EEFD0D821EF3EE780068F54A /* 分类文件 */,
+				EEFD0D851EF3EE780068F54A /* 屏幕适配 */,
 			);
 			name = "EncapsulationFile封装的文件";
 			path = EncapsulationFile;
@@ -430,36 +430,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		EEEDF9A71EF119BF00F799E0 /* classification */ = {
-			isa = PBXGroup;
-			children = (
-				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
-				EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */,
-			);
-			name = classification;
-			path = "分类文件";
-			sourceTree = "<group>";
-		};
-		EEEDF9A81EF119C900F799E0 /* countdownTimer */ = {
-			isa = PBXGroup;
-			children = (
-				EE7092231EC984BE004103BD /* CountdownTimer.h */,
-				EE7092241EC984BE004103BD /* CountdownTimer.m */,
-			);
-			name = countdownTimer;
-			path = "倒计时";
-			sourceTree = "<group>";
-		};
-		EEEDF9A91EF119CD00F799E0 /* ScreenAdaptation */ = {
-			isa = PBXGroup;
-			children = (
-				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
-				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
-			);
-			name = ScreenAdaptation;
-			path = "屏幕适配";
-			sourceTree = "<group>";
-		};
 		EEFD0D5A1EF386790068F54A /* 排序算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +456,33 @@
 				EEEDF99F1EEFD06900F799E0 /* Person.m */,
 			);
 			path = "单利的封装和用法";
+			sourceTree = "<group>";
+		};
+		EEFD0D7F1EF3EE780068F54A /* 倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0D801EF3EE780068F54A /* CountdownTimer.h */,
+				EEFD0D811EF3EE780068F54A /* CountdownTimer.m */,
+			);
+			path = "倒计时";
+			sourceTree = "<group>";
+		};
+		EEFD0D821EF3EE780068F54A /* 分类文件 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0D831EF3EE780068F54A /* EncapsulationSystemControls.h */,
+				EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */,
+			);
+			path = "分类文件";
+			sourceTree = "<group>";
+		};
+		EEFD0D851EF3EE780068F54A /* 屏幕适配 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0D861EF3EE780068F54A /* ScreenAdaptation.h */,
+				EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */,
+			);
+			path = "屏幕适配";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -676,7 +673,6 @@
 			files = (
 				EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */,
 				EEFD0D611EF3891F0068F54A /* QuickSortController.m in Sources */,
-				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
 				EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
 				EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */,
@@ -684,8 +680,9 @@
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
 				EEFD0D5E1EF387A80068F54A /* AlgorithmTableController.m in Sources */,
 				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,
-				EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */,
 				EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */,
+				EEFD0D8A1EF3EE780068F54A /* ScreenAdaptation.m in Sources */,
+				EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */,
 				EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */,
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
 				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
@@ -701,12 +698,12 @@
 				EEFD0D641EF389850068F54A /* BubblingController.m in Sources */,
 				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
-				EE70922B1EC984BE004103BD /* ScreenAdaptation.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
 				EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */,
 				EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */,
 				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
 				EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */,
+				EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */,
 				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
 				EE7091F11EC98424004103BD /* main.m in Sources */,
 				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,
