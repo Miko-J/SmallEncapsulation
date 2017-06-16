@@ -10,7 +10,8 @@
 #import "CommonlyUsedViewController.h"
 #import "ScreenSdaptationViewController.h"   //屏幕适配
 #import "CountdownViewController.h"          //倒计时
-#import "RACTableController.h"
+#import "RACTableController.h"               //RAC
+#import "AlgorithmTableController.h"         //算法
 @interface TableListController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -39,7 +40,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     //声明一个重用ID
-    static NSString *ID = @"tableList_Cell";
+    static NSString *ID = @"Algorithm_Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
@@ -63,6 +64,8 @@
             break;
         case 3:
             [self.navigationController pushViewController:[[RACTableController alloc] init] animated:YES];
+        case 4:
+            [self.navigationController pushViewController:[[AlgorithmTableController alloc] init] animated:YES];
         default:
             break;
     }
@@ -70,7 +73,7 @@
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法"];
+        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法",@"算法"];
     }
     return _titleArray;
 }

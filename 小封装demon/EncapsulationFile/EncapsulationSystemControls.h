@@ -8,21 +8,22 @@
 
 
 #pragma nark: -屏幕适配的宏定义
-#define auto3Dot5Width [ScreenAdaptation shareInstance].autoBase3Dot5Width
-#define auto3Dot5Height [ScreenAdaptation shareInstance].autoBase3Dot5Height
+#define screenAdaptation [ScreenAdaptation shareInstance]
+#define auto3Dot5Width screenAdaptation.autoBase3Dot5Width
+#define auto3Dot5Height screenAdaptation.autoBase3Dot5Height
 
-#define auto4Dot0Width [ScreenAdaptation shareInstance].autoBase4Dot0Width
-#define auto4Dot0Height [ScreenAdaptation shareInstance].autoBase4Dot0Height
+#define auto4Dot0Width screenAdaptation.autoBase4Dot0Width
+#define auto4Dot0Height screenAdaptation.autoBase4Dot0Height
 
-#define auto4Dot7Width [ScreenAdaptation shareInstance].autoBase4Dot7Width
-#define auto4Dot7Height [ScreenAdaptation shareInstance].autoBase4Dot7Height
+#define auto4Dot7Width screenAdaptation.autoBase4Dot7Width
+#define auto4Dot7Height screenAdaptation.autoBase4Dot7Height
 
-#define auto5Dot5Width [ScreenAdaptation shareInstance].autoBase5Dot5Width
-#define auto5Dot5Height [ScreenAdaptation shareInstance].autoBase5Dot5Height
+#define auto5Dot5Width screenAdaptation.autoBase5Dot5Width
+#define auto5Dot5Height screenAdaptation.autoBase5Dot5Height
 
-#define font4Dot7(x) [[ScreenAdaptation shareInstance] font4Dot7Size:x]
+#define font4Dot7(x) [screenAdaptation font4Dot7Size:x]
 
-#define font5Dot5(x) [[ScreenAdaptation shareInstance] font5Dot5Size:x]
+#define font5Dot5(x) [screenAdaptation font5Dot5Size:x]
 
 
 

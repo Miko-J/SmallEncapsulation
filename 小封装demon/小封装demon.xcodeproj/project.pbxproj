@@ -49,6 +49,10 @@
 		EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */; };
 		EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF99F1EEFD06900F799E0 /* Person.m */; };
 		EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */; };
+		EEFD0D5E1EF387A80068F54A /* AlgorithmTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */; };
+		EEFD0D611EF3891F0068F54A /* QuickSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D601EF3891F0068F54A /* QuickSortController.m */; };
+		EEFD0D641EF389850068F54A /* BubblingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D631EF389850068F54A /* BubblingController.m */; };
+		EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D661EF3AB530068F54A /* SelectionSortController.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -115,12 +119,12 @@
 		EE7092101EC98424004103BD /* 小封装demonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonUITests.m"; sourceTree = "<group>"; };
 		EE7092161EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE7092231EC984BE004103BD /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
-		EE7092241EC984BE004103BD /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
-		EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncapsulationSystemControls.h; sourceTree = "<group>"; };
-		EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncapsulationSystemControls.m; sourceTree = "<group>"; };
-		EE7092271EC984BE004103BD /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenAdaptation.h; sourceTree = "<group>"; };
-		EE7092281EC984BE004103BD /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenAdaptation.m; sourceTree = "<group>"; };
+		EE7092231EC984BE004103BD /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountdownTimer.h; path = ../CountdownTimer.h; sourceTree = "<group>"; };
+		EE7092241EC984BE004103BD /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountdownTimer.m; path = ../CountdownTimer.m; sourceTree = "<group>"; };
+		EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncapsulationSystemControls.h; path = ../EncapsulationSystemControls.h; sourceTree = "<group>"; };
+		EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncapsulationSystemControls.m; path = ../EncapsulationSystemControls.m; sourceTree = "<group>"; };
+		EE7092271EC984BE004103BD /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenAdaptation.h; path = ../ScreenAdaptation.h; sourceTree = "<group>"; };
+		EE7092281EC984BE004103BD /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenAdaptation.m; path = ../ScreenAdaptation.m; sourceTree = "<group>"; };
 		EE70922F1EC98564004103BD /* TableListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableListController.h; path = ../TableListController.h; sourceTree = "<group>"; };
 		EE7092301EC98564004103BD /* TableListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableListController.m; path = ../TableListController.m; sourceTree = "<group>"; };
 		EE7092331EC98794004103BD /* ScreenSdaptationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSdaptationViewController.h; sourceTree = "<group>"; };
@@ -153,11 +157,19 @@
 		EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
 		EEEDF9961EEFABD200F799E0 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobeConst.h; path = FunctionDisplay/GlobeConst.h; sourceTree = "<group>"; };
 		EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
-		EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Singleton-ARC.h"; path = "FunctionDisplay/Singleton-ARC.h"; sourceTree = "<group>"; };
-		EEEDF99E1EEFD06900F799E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		EEEDF99F1EEFD06900F799E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Singleton-ARC.h"; path = "../Singleton-ARC.h"; sourceTree = "<group>"; };
+		EEEDF99E1EEFD06900F799E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		EEEDF99F1EEFD06900F799E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 		EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+encapsulation.h"; sourceTree = "<group>"; };
 		EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+encapsulation.m"; sourceTree = "<group>"; };
+		EEFD0D5C1EF387A80068F54A /* AlgorithmTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlgorithmTableController.h; path = ../AlgorithmTableController.h; sourceTree = "<group>"; };
+		EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlgorithmTableController.m; path = ../AlgorithmTableController.m; sourceTree = "<group>"; };
+		EEFD0D5F1EF3891F0068F54A /* QuickSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortController.h; sourceTree = "<group>"; };
+		EEFD0D601EF3891F0068F54A /* QuickSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSortController.m; sourceTree = "<group>"; };
+		EEFD0D621EF389850068F54A /* BubblingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubblingController.h; sourceTree = "<group>"; };
+		EEFD0D631EF389850068F54A /* BubblingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubblingController.m; sourceTree = "<group>"; };
+		EEFD0D651EF3AB530068F54A /* SelectionSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSortController.h; sourceTree = "<group>"; };
+		EEFD0D661EF3AB530068F54A /* SelectionSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,13 +320,12 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
-				EE7092321EC98752004103BD /* FunctionDisplay */,
+				EE7092321EC98752004103BD /* FunctionDisplay功能展示 */,
 				EE7091F21EC98424004103BD /* AppDelegate.h */,
 				EE7091F31EC98424004103BD /* AppDelegate.m */,
 				EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */,
 				EEEDF9961EEFABD200F799E0 /* GlobeConst.h */,
 				EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */,
-				EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */,
 				EE7091F81EC98424004103BD /* Main.storyboard */,
 				EE7091FB1EC98424004103BD /* Assets.xcassets */,
 				EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */,
@@ -353,18 +364,15 @@
 		EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */ = {
 			isa = PBXGroup;
 			children = (
-				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
-				EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */,
-				EE7092231EC984BE004103BD /* CountdownTimer.h */,
-				EE7092241EC984BE004103BD /* CountdownTimer.m */,
-				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
-				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
+				EEEDF9A71EF119BF00F799E0 /* 分类文件的封装 */,
+				EEEDF9A91EF119CD00F799E0 /* 屏幕适配的封装 */,
+				EEEDF9A81EF119C900F799E0 /* 倒计时的封装 */,
 			);
 			name = "EncapsulationFile封装的文件";
 			path = EncapsulationFile;
 			sourceTree = "<group>";
 		};
-		EE7092321EC98752004103BD /* FunctionDisplay */ = {
+		EE7092321EC98752004103BD /* FunctionDisplay功能展示 */ = {
 			isa = PBXGroup;
 			children = (
 				EE70922F1EC98564004103BD /* TableListController.h */,
@@ -377,10 +385,11 @@
 				EE7092371EC987C3004103BD /* CountdownViewController.m */,
 				EE4952281ED3094200706AA5 /* RACTableController.h */,
 				EE4952291ED3094200706AA5 /* RACTableController.m */,
-				EEEDF99E1EEFD06900F799E0 /* Person.h */,
-				EEEDF99F1EEFD06900F799E0 /* Person.m */,
+				EEFD0D5B1EF386B60068F54A /* 单利的封装和用法 */,
+				EEFD0D5A1EF386790068F54A /* 算法 */,
 				EE49522B1ED30A5600706AA5 /* RAC */,
 			);
+			name = "FunctionDisplay功能展示";
 			path = FunctionDisplay;
 			sourceTree = "<group>";
 		};
@@ -416,6 +425,61 @@
 			);
 			name = "Category分类";
 			path = Category;
+			sourceTree = "<group>";
+		};
+		EEEDF9A71EF119BF00F799E0 /* 分类文件的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092251EC984BE004103BD /* EncapsulationSystemControls.h */,
+				EE7092261EC984BE004103BD /* EncapsulationSystemControls.m */,
+			);
+			name = "分类文件的封装";
+			path = "分类文件";
+			sourceTree = "<group>";
+		};
+		EEEDF9A81EF119C900F799E0 /* 倒计时的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092231EC984BE004103BD /* CountdownTimer.h */,
+				EE7092241EC984BE004103BD /* CountdownTimer.m */,
+			);
+			name = "倒计时的封装";
+			path = "倒计时";
+			sourceTree = "<group>";
+		};
+		EEEDF9A91EF119CD00F799E0 /* 屏幕适配的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				EE7092271EC984BE004103BD /* ScreenAdaptation.h */,
+				EE7092281EC984BE004103BD /* ScreenAdaptation.m */,
+			);
+			name = "屏幕适配的封装";
+			path = "屏幕适配";
+			sourceTree = "<group>";
+		};
+		EEFD0D5A1EF386790068F54A /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0D5C1EF387A80068F54A /* AlgorithmTableController.h */,
+				EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */,
+				EEFD0D5F1EF3891F0068F54A /* QuickSortController.h */,
+				EEFD0D601EF3891F0068F54A /* QuickSortController.m */,
+				EEFD0D621EF389850068F54A /* BubblingController.h */,
+				EEFD0D631EF389850068F54A /* BubblingController.m */,
+				EEFD0D651EF3AB530068F54A /* SelectionSortController.h */,
+				EEFD0D661EF3AB530068F54A /* SelectionSortController.m */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		EEFD0D5B1EF386B60068F54A /* 单利的封装和用法 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */,
+				EEEDF99E1EEFD06900F799E0 /* Person.h */,
+				EEEDF99F1EEFD06900F799E0 /* Person.m */,
+			);
+			path = "单利的封装和用法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -605,12 +669,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */,
+				EEFD0D611EF3891F0068F54A /* QuickSortController.m in Sources */,
 				EE70922A1EC984BE004103BD /* EncapsulationSystemControls.m in Sources */,
 				EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
 				EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */,
 				EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */,
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
+				EEFD0D5E1EF387A80068F54A /* AlgorithmTableController.m in Sources */,
 				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,
 				EE7092291EC984BE004103BD /* CountdownTimer.m in Sources */,
 				EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */,
@@ -626,11 +692,13 @@
 				EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */,
 				EE7092311EC98564004103BD /* TableListController.m in Sources */,
 				EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */,
+				EEFD0D641EF389850068F54A /* BubblingController.m in Sources */,
 				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
 				EE70922B1EC984BE004103BD /* ScreenAdaptation.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
 				EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */,
+				EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */,
 				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
 				EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */,
 				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
