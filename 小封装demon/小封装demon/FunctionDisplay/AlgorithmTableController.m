@@ -9,6 +9,8 @@
 #import "AlgorithmTableController.h"
 #import "QuickSortController.h"
 #import "BubblingController.h"
+#import "SelectionSortController.h"
+#import "InsertSortController.h"
 @interface AlgorithmTableController ()
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -52,6 +54,12 @@
         case 1:
             [self.navigationController pushViewController:[[BubblingController alloc] init] animated:YES];
             break;
+        case 2:
+            [self.navigationController pushViewController:[[SelectionSortController alloc] init] animated:YES];
+            break;
+        case 3:
+            [self.navigationController pushViewController:[[InsertSortController alloc] init] animated:YES];
+            break;
         default:
             break;
     }
@@ -59,7 +67,7 @@
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = @[@"快排",@"冒泡",@"选择"];
+        _titleArray = @[@"快排",@"冒泡",@"选择",@"插入"];
     }
     return _titleArray;
 }

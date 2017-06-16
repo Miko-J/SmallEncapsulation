@@ -53,6 +53,7 @@
 		EEFD0D611EF3891F0068F54A /* QuickSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D601EF3891F0068F54A /* QuickSortController.m */; };
 		EEFD0D641EF389850068F54A /* BubblingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D631EF389850068F54A /* BubblingController.m */; };
 		EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D661EF3AB530068F54A /* SelectionSortController.m */; };
+		EEFD0D6C1EF3CB680068F54A /* InsertSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -170,6 +171,8 @@
 		EEFD0D631EF389850068F54A /* BubblingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubblingController.m; sourceTree = "<group>"; };
 		EEFD0D651EF3AB530068F54A /* SelectionSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSortController.h; sourceTree = "<group>"; };
 		EEFD0D661EF3AB530068F54A /* SelectionSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSortController.m; sourceTree = "<group>"; };
+		EEFD0D6A1EF3CB680068F54A /* InsertSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSortController.h; sourceTree = "<group>"; };
+		EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +471,8 @@
 				EEFD0D631EF389850068F54A /* BubblingController.m */,
 				EEFD0D651EF3AB530068F54A /* SelectionSortController.h */,
 				EEFD0D661EF3AB530068F54A /* SelectionSortController.m */,
+				EEFD0D6A1EF3CB680068F54A /* InsertSortController.h */,
+				EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -705,6 +710,7 @@
 				EE7091F11EC98424004103BD /* main.m in Sources */,
 				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,
 				EE31682D1ED83BB50064AC5B /* Account.m in Sources */,
+				EEFD0D6C1EF3CB680068F54A /* InsertSortController.m in Sources */,
 				EE18333A1EDE97610048658F /* RequestController.m in Sources */,
 				EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */,
 				EE31682A1ED83B990064AC5B /* LoginViewModel.m in Sources */,
