@@ -10,4 +10,6 @@
 
 @interface TableListController : UITableViewController
 
+@property (nonatomic, strong) UIButton *button;
+
 @end

@@ -7,24 +7,37 @@
 //
 
 #import "TableListController.h"
+#import "EncapsulationSystemControls.h"
 #import "CommonlyUsedViewController.h"
 #import "ScreenSdaptationViewController.h"   //屏幕适配
 #import "CountdownViewController.h"          //倒计时
 #import "RACTableController.h"               //RAC
 #import "AlgorithmTableController.h"         //算法
-@interface TableListController ()
+#import "PingTransition.h"                   //动画
+#import "AnimationTableController.h"         //动画的表
+#import "ReactiveObjC.h"
+@interface TableListController ()<UINavigationControllerDelegate>
 @property (nonatomic, strong) NSArray *titleArray;
 @end
 
 @implementation TableListController
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+    self.navigationController.delegate = self;
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"小封装";
+    //设置右侧item
+    [self setUpRightBarButtonItem];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+//设置右侧item
+- (void)setUpRightBarButtonItem{
+    self.button.frame = CGRectMake(0, 0, 50, 30);
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.button];
 }
 
 #pragma mark - Table view data source
@@ -70,11 +83,37 @@
             break;
     }
 }
+#pragma mark - UINavigationControllerDelegate
+
+- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                   animationControllerForOperation:(UINavigationControllerOperation)operation
+                                                fromViewController:(UIViewController *)fromVC
+                                                  toViewController:(UIViewController *)toVC{
+    if (operation == UINavigationControllerOperationPush) {
+        
+        PingTransition *ping = [PingTransition new];
+        return ping;
+    }else{
+        return nil;
+    }
+}
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
         _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法",@"排序算法"];
     }
     return _titleArray;
+}
+
+- (UIButton *)button{
+    if (!_button) {
+        _button = [UIButton buttonWithType:UIButtonTypeCustom title:@"动画" titleColor:[UIColor blackColor] disBGImageName:nil normalBGImageName:nil];
+        @weakify(self);
+        [[_button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+            @strongify(self);
+            [self.navigationController pushViewController:[[AnimationTableController alloc] init] animated:YES];
+        }];
+    }
+    return _button;
 }
 @end

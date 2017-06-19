@@ -46,12 +46,4 @@
  */
 + (void)inserSort:(NSMutableArray *)array;
 
-
-
-/**
- 打印函数
-
- @param array 传入的排序的数组
- */
-+ (void)printArray:(NSArray *)array;
 @end
