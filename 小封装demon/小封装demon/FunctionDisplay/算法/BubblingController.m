@@ -7,7 +7,7 @@
 //
 
 #import "BubblingController.h"
-
+#import "SortTool.h"
 @interface BubblingController ()
 
 @end
@@ -36,7 +36,7 @@
 
     //OC写法
     NSMutableArray *data_Arr = [NSMutableArray arrayWithObjects:@5,@9,@3,@6,@8,@1,nil];
-    [self bubbleSort:data_Arr];
+    [SortTool bubbleSort:data_Arr];
     NSLog(@"OC的冒泡排序：%@",data_Arr);
 }
 /********************************************************
@@ -75,23 +75,6 @@ void DataSwap(int* data1, int* data2)
     int temp = *data1;
     *data1 = *data2;
     *data2 = temp;
-}
-
-//OC
-- (void)bubbleSort:(NSMutableArray *)array{
-    for (int i = 0; i < array.count; ++i) {
-        
-        //遍历数组的每一个`索引`（不包括最后一个,因为比较的是j+1）
-        for (int j = 0; j < array.count-1; ++j) {
-            
-            //根据索引的`相邻两位`进行`比较`
-            if (array[j] < array[j+1]) {
-                
-                [array exchangeObjectAtIndex:j withObjectAtIndex:j+1];
-            }
-            
-        }
-    }
 }
 
 @end

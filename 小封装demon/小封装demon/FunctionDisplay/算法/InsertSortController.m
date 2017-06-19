@@ -7,7 +7,7 @@
 //
 
 #import "InsertSortController.h"
-
+#import "SortTool.h"
 @interface InsertSortController ()
 
 @end
@@ -35,7 +35,7 @@
     
     //OC
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@3,@2,@6,@9,@8,@5,@7,@1,@4,nil];
-    [self inserSort:arr];
+    [SortTool inserSort:arr];
     
 }
 //C的写法
@@ -52,37 +52,5 @@ void InsertSort(int *arr, int length)
         }
         arr[j] = temp;
     }
-}
-
-//OC
-- (void)inserSort:(NSMutableArray *)array
-{
-    if(array == nil || array.count == 0){
-        return;
-    }
-    
-    for (int i = 0; i < array.count; i++) {
-        NSNumber *temp = array[i];
-        int j = i-1;
-        
-        while (j >= 0 && [array[j] compare:temp] == NSOrderedDescending) {
-            [array replaceObjectAtIndex:j+1 withObject:array[j]];
-            j--;
-            
-            printf("排序中:");
-            [self printArray:array];
-        }
-        
-        [array replaceObjectAtIndex:j+1 withObject:temp];
-    }
-}
-
-- (void)printArray:(NSArray *)array
-{
-    for(NSNumber *number in array) {
-        printf("%d ",[number intValue]);
-    }
-    
-    printf("\n");
 }
 @end

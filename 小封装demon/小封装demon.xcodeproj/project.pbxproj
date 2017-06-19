@@ -54,6 +54,7 @@
 		EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D811EF3EE780068F54A /* CountdownTimer.m */; };
 		EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */; };
 		EEFD0D8A1EF3EE780068F54A /* ScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */; };
+		EEFD0D921EF795FE0068F54A /* SortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D911EF795FD0068F54A /* SortTool.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -173,6 +174,8 @@
 		EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncapsulationSystemControls.m; sourceTree = "<group>"; };
 		EEFD0D861EF3EE780068F54A /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenAdaptation.h; sourceTree = "<group>"; };
 		EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenAdaptation.m; sourceTree = "<group>"; };
+		EEFD0D901EF795FD0068F54A /* SortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTool.h; sourceTree = "<group>"; };
+		EEFD0D911EF795FD0068F54A /* SortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,6 +436,8 @@
 		EEFD0D5A1EF386790068F54A /* 排序算法 */ = {
 			isa = PBXGroup;
 			children = (
+				EEFD0D901EF795FD0068F54A /* SortTool.h */,
+				EEFD0D911EF795FD0068F54A /* SortTool.m */,
 				EEFD0D5C1EF387A80068F54A /* AlgorithmTableController.h */,
 				EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */,
 				EEFD0D5F1EF3891F0068F54A /* QuickSortController.h */,
@@ -676,6 +681,7 @@
 				EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */,
 				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
 				EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */,
+				EEFD0D921EF795FE0068F54A /* SortTool.m in Sources */,
 				EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */,
 				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
 				EEFD0D5E1EF387A80068F54A /* AlgorithmTableController.m in Sources */,

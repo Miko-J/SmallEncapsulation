@@ -7,7 +7,7 @@
 //
 
 #import "SelectionSortController.h"
-
+#import "SortTool.h"
 @interface SelectionSortController ()
 
 @end
@@ -33,7 +33,7 @@
     
     //OC
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@6,@10,@3,@5,@15,@3,@1,@9,nil];
-    [self selectSortWithArray:arr];
+    [SortTool selectSortWithArray:arr];
     NSLog(@"OC的选择排序%@",arr);
 }
 
@@ -64,21 +64,5 @@ void selectSort(int* arr, int length)
     }  
 }
 
-//OC
-- (void)selectSortWithArray:(NSMutableArray *)array{
-    for (int i=0; i<array.count; i++) {
-        
-        for (int j=i+1; j<array.count; j++) {
-            
-            if (array[i]<array[j]) {
-                
-                [array exchangeObjectAtIndex:i withObjectAtIndex:j];
-                
-            }
-            
-        }
-        
-    }
-}
 
 @end
