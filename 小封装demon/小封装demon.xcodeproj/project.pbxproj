@@ -8,19 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */; };
-		EE18333A1EDE97610048658F /* RequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1833391EDE97610048658F /* RequestController.m */; };
-		EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18333C1EDE97DF0048658F /* RequestViewModel.m */; };
-		EE1833401EDE98A50048658F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18333F1EDE98A50048658F /* Book.m */; };
-		EE1833471EE0018B0048658F /* RACAdvancedController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1833461EE0018B0048658F /* RACAdvancedController.m */; };
-		EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168131ED593E30064AC5B /* RACBaseController.m */; };
-		EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168191ED5B6EE0064AC5B /* RACView.m */; };
-		EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168221ED83A2E0064AC5B /* LoginController.m */; };
-		EE31682A1ED83B990064AC5B /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168291ED83B990064AC5B /* LoginViewModel.m */; };
-		EE31682D1ED83BB50064AC5B /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31682C1ED83BB50064AC5B /* Account.m */; };
 		EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */; };
 		EE31683A1ED973280064AC5B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE3168361ED973280064AC5B /* MBProgressHUD.bundle */; };
 		EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168381ED973280064AC5B /* MBProgressHUD.m */; };
-		EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4952291ED3094200706AA5 /* RACTableController.m */; };
 		EE7091F11EC98424004103BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F01EC98424004103BD /* main.m */; };
 		EE7091F41EC98424004103BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F31EC98424004103BD /* AppDelegate.m */; };
 		EE7091FA1EC98424004103BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091F81EC98424004103BD /* Main.storyboard */; };
@@ -28,10 +18,6 @@
 		EE7091FF1EC98424004103BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091FD1EC98424004103BD /* LaunchScreen.storyboard */; };
 		EE70920A1EC98424004103BD /* ___demonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092091EC98424004103BD /* ___demonTests.m */; };
 		EE7092151EC98424004103BD /* ___demonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092141EC98424004103BD /* ___demonUITests.m */; };
-		EE7092311EC98564004103BD /* TableListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092301EC98564004103BD /* TableListController.m */; };
-		EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */; };
-		EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092371EC987C3004103BD /* CountdownViewController.m */; };
-		EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70923A1EC987EC004103BD /* CommonlyUsedViewController.m */; };
 		EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092411EC9C632004103BD /* NSData+encapsulationData.m */; };
 		EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092431EC9C632004103BD /* NSDate+encapsulation.m */; };
 		EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092451EC9C632004103BD /* NSNumber+encapsulationData.m */; };
@@ -44,17 +30,31 @@
 		EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */; };
 		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
 		EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */; };
-		EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF99F1EEFD06900F799E0 /* Person.m */; };
 		EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */; };
-		EEFD0D5E1EF387A80068F54A /* AlgorithmTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */; };
-		EEFD0D611EF3891F0068F54A /* QuickSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D601EF3891F0068F54A /* QuickSortController.m */; };
-		EEFD0D641EF389850068F54A /* BubblingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D631EF389850068F54A /* BubblingController.m */; };
-		EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D661EF3AB530068F54A /* SelectionSortController.m */; };
-		EEFD0D6C1EF3CB680068F54A /* InsertSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */; };
 		EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D811EF3EE780068F54A /* CountdownTimer.m */; };
 		EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */; };
 		EEFD0D8A1EF3EE780068F54A /* ScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */; };
-		EEFD0D921EF795FE0068F54A /* SortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D911EF795FD0068F54A /* SortTool.m */; };
+		EEFD0E0E1EF7A0080068F54A /* AlgorithmTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DDB1EF7A0080068F54A /* AlgorithmTableController.m */; };
+		EEFD0E0F1EF7A0080068F54A /* CommonlyUsedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DDD1EF7A0080068F54A /* CommonlyUsedViewController.m */; };
+		EEFD0E101EF7A0080068F54A /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DDF1EF7A0080068F54A /* CountdownViewController.m */; };
+		EEFD0E111EF7A0080068F54A /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DE41EF7A0080068F54A /* Account.m */; };
+		EEFD0E121EF7A0080068F54A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DE61EF7A0080068F54A /* Book.m */; };
+		EEFD0E131EF7A0080068F54A /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DEA1EF7A0080068F54A /* LoginController.m */; };
+		EEFD0E141EF7A0080068F54A /* RequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DEC1EF7A0080068F54A /* RequestController.m */; };
+		EEFD0E151EF7A0080068F54A /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DEF1EF7A0080068F54A /* LoginViewModel.m */; };
+		EEFD0E161EF7A0080068F54A /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DF11EF7A0080068F54A /* RequestViewModel.m */; };
+		EEFD0E171EF7A0080068F54A /* RACAdvancedController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DF31EF7A0080068F54A /* RACAdvancedController.m */; };
+		EEFD0E181EF7A0080068F54A /* RACBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DF51EF7A0080068F54A /* RACBaseController.m */; };
+		EEFD0E191EF7A0080068F54A /* RACView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DF71EF7A0080068F54A /* RACView.m */; };
+		EEFD0E1A1EF7A0080068F54A /* RACTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DF91EF7A0080068F54A /* RACTableController.m */; };
+		EEFD0E1B1EF7A0080068F54A /* ScreenSdaptationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DFB1EF7A0080068F54A /* ScreenSdaptationViewController.m */; };
+		EEFD0E1C1EF7A0080068F54A /* TableListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0DFD1EF7A0080068F54A /* TableListController.m */; };
+		EEFD0E1D1EF7A0080068F54A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0E001EF7A0080068F54A /* Person.m */; };
+		EEFD0E1E1EF7A0080068F54A /* BubblingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0E051EF7A0080068F54A /* BubblingController.m */; };
+		EEFD0E1F1EF7A0080068F54A /* InsertSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0E071EF7A0080068F54A /* InsertSortController.m */; };
+		EEFD0E201EF7A0080068F54A /* QuickSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0E091EF7A0080068F54A /* QuickSortController.m */; };
+		EEFD0E211EF7A0080068F54A /* SelectionSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0E0B1EF7A0080068F54A /* SelectionSortController.m */; };
+		EEFD0E221EF7A0080068F54A /* SortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0E0D1EF7A0080068F54A /* SortTool.m */; };
 		EF98B52C79C7932BD2980C13 /* Pods____demon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5053486263CA89F1545FDA /* Pods____demon.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,32 +81,12 @@
 		CD5053486263CA89F1545FDA /* Pods____demon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____demon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+encapsulation.h"; sourceTree = "<group>"; };
 		EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+encapsulation.m"; sourceTree = "<group>"; };
-		EE1833381EDE97610048658F /* RequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestController.h; sourceTree = "<group>"; };
-		EE1833391EDE97610048658F /* RequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestController.m; sourceTree = "<group>"; };
-		EE18333B1EDE97DF0048658F /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
-		EE18333C1EDE97DF0048658F /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
-		EE18333E1EDE98A50048658F /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		EE18333F1EDE98A50048658F /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
-		EE1833451EE0018B0048658F /* RACAdvancedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACAdvancedController.h; sourceTree = "<group>"; };
-		EE1833461EE0018B0048658F /* RACAdvancedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACAdvancedController.m; sourceTree = "<group>"; };
-		EE3168121ED593E30064AC5B /* RACBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseController.h; sourceTree = "<group>"; };
-		EE3168131ED593E30064AC5B /* RACBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseController.m; sourceTree = "<group>"; };
-		EE3168181ED5B6EE0064AC5B /* RACView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACView.h; sourceTree = "<group>"; };
-		EE3168191ED5B6EE0064AC5B /* RACView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACView.m; sourceTree = "<group>"; };
-		EE3168211ED83A2E0064AC5B /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = ../LoginController.h; sourceTree = "<group>"; };
-		EE3168221ED83A2E0064AC5B /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = ../LoginController.m; sourceTree = "<group>"; };
-		EE3168281ED83B990064AC5B /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		EE3168291ED83B990064AC5B /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
-		EE31682B1ED83BB50064AC5B /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
-		EE31682C1ED83BB50064AC5B /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		EE3168341ED973280064AC5B /* MBProgressHUD+XN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XN.h"; sourceTree = "<group>"; };
 		EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XN.m"; sourceTree = "<group>"; };
 		EE3168361ED973280064AC5B /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		EE3168371ED973280064AC5B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		EE3168381ED973280064AC5B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		EE4952281ED3094200706AA5 /* RACTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RACTableController.h; path = "小封装demon/FunctionDisplay/RACTableController.h"; sourceTree = SOURCE_ROOT; };
-		EE4952291ED3094200706AA5 /* RACTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RACTableController.m; path = "小封装demon/FunctionDisplay/RACTableController.m"; sourceTree = SOURCE_ROOT; };
 		EE7091EC1EC98424004103BD /* 小封装demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小封装demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7091F01EC98424004103BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7091F21EC98424004103BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,14 +101,6 @@
 		EE7092101EC98424004103BD /* 小封装demonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小封装demonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7092141EC98424004103BD /* ___demonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___demonUITests.m"; sourceTree = "<group>"; };
 		EE7092161EC98424004103BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE70922F1EC98564004103BD /* TableListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableListController.h; path = ../TableListController.h; sourceTree = "<group>"; };
-		EE7092301EC98564004103BD /* TableListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableListController.m; path = ../TableListController.m; sourceTree = "<group>"; };
-		EE7092331EC98794004103BD /* ScreenSdaptationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSdaptationViewController.h; sourceTree = "<group>"; };
-		EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSdaptationViewController.m; sourceTree = "<group>"; };
-		EE7092361EC987C3004103BD /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
-		EE7092371EC987C3004103BD /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
-		EE7092391EC987EC004103BD /* CommonlyUsedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonlyUsedViewController.h; sourceTree = "<group>"; };
-		EE70923A1EC987EC004103BD /* CommonlyUsedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonlyUsedViewController.m; sourceTree = "<group>"; };
 		EE7092401EC9C632004103BD /* NSData+encapsulationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+encapsulationData.h"; sourceTree = "<group>"; };
 		EE7092411EC9C632004103BD /* NSData+encapsulationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+encapsulationData.m"; sourceTree = "<group>"; };
 		EE7092421EC9C632004103BD /* NSDate+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+encapsulation.h"; sourceTree = "<group>"; };
@@ -151,31 +123,59 @@
 		EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+encapsulationlable.m"; sourceTree = "<group>"; };
 		EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+encapsulationUIView.h"; sourceTree = "<group>"; };
 		EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
-		EEEDF9961EEFABD200F799E0 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobeConst.h; path = FunctionDisplay/GlobeConst.h; sourceTree = "<group>"; };
 		EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
-		EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Singleton-ARC.h"; path = "../Singleton-ARC.h"; sourceTree = "<group>"; };
-		EEEDF99E1EEFD06900F799E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
-		EEEDF99F1EEFD06900F799E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 		EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+encapsulation.h"; sourceTree = "<group>"; };
 		EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+encapsulation.m"; sourceTree = "<group>"; };
-		EEFD0D5C1EF387A80068F54A /* AlgorithmTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlgorithmTableController.h; path = ../AlgorithmTableController.h; sourceTree = "<group>"; };
-		EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlgorithmTableController.m; path = ../AlgorithmTableController.m; sourceTree = "<group>"; };
-		EEFD0D5F1EF3891F0068F54A /* QuickSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortController.h; sourceTree = "<group>"; };
-		EEFD0D601EF3891F0068F54A /* QuickSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSortController.m; sourceTree = "<group>"; };
-		EEFD0D621EF389850068F54A /* BubblingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubblingController.h; sourceTree = "<group>"; };
-		EEFD0D631EF389850068F54A /* BubblingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubblingController.m; sourceTree = "<group>"; };
-		EEFD0D651EF3AB530068F54A /* SelectionSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSortController.h; sourceTree = "<group>"; };
-		EEFD0D661EF3AB530068F54A /* SelectionSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSortController.m; sourceTree = "<group>"; };
-		EEFD0D6A1EF3CB680068F54A /* InsertSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSortController.h; sourceTree = "<group>"; };
-		EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSortController.m; sourceTree = "<group>"; };
 		EEFD0D801EF3EE780068F54A /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
 		EEFD0D811EF3EE780068F54A /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
 		EEFD0D831EF3EE780068F54A /* EncapsulationSystemControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncapsulationSystemControls.h; sourceTree = "<group>"; };
 		EEFD0D841EF3EE780068F54A /* EncapsulationSystemControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncapsulationSystemControls.m; sourceTree = "<group>"; };
 		EEFD0D861EF3EE780068F54A /* ScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenAdaptation.h; sourceTree = "<group>"; };
 		EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenAdaptation.m; sourceTree = "<group>"; };
-		EEFD0D901EF795FD0068F54A /* SortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTool.h; sourceTree = "<group>"; };
-		EEFD0D911EF795FD0068F54A /* SortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTool.m; sourceTree = "<group>"; };
+		EEFD0DD81EF79FDC0068F54A /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeConst.h; sourceTree = "<group>"; };
+		EEFD0DDA1EF7A0080068F54A /* AlgorithmTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmTableController.h; sourceTree = "<group>"; };
+		EEFD0DDB1EF7A0080068F54A /* AlgorithmTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmTableController.m; sourceTree = "<group>"; };
+		EEFD0DDC1EF7A0080068F54A /* CommonlyUsedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonlyUsedViewController.h; sourceTree = "<group>"; };
+		EEFD0DDD1EF7A0080068F54A /* CommonlyUsedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonlyUsedViewController.m; sourceTree = "<group>"; };
+		EEFD0DDE1EF7A0080068F54A /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		EEFD0DDF1EF7A0080068F54A /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		EEFD0DE31EF7A0080068F54A /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		EEFD0DE41EF7A0080068F54A /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		EEFD0DE51EF7A0080068F54A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		EEFD0DE61EF7A0080068F54A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		EEFD0DE91EF7A0080068F54A /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		EEFD0DEA1EF7A0080068F54A /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		EEFD0DEB1EF7A0080068F54A /* RequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestController.h; sourceTree = "<group>"; };
+		EEFD0DEC1EF7A0080068F54A /* RequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestController.m; sourceTree = "<group>"; };
+		EEFD0DEE1EF7A0080068F54A /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		EEFD0DEF1EF7A0080068F54A /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		EEFD0DF01EF7A0080068F54A /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		EEFD0DF11EF7A0080068F54A /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		EEFD0DF21EF7A0080068F54A /* RACAdvancedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACAdvancedController.h; sourceTree = "<group>"; };
+		EEFD0DF31EF7A0080068F54A /* RACAdvancedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACAdvancedController.m; sourceTree = "<group>"; };
+		EEFD0DF41EF7A0080068F54A /* RACBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseController.h; sourceTree = "<group>"; };
+		EEFD0DF51EF7A0080068F54A /* RACBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseController.m; sourceTree = "<group>"; };
+		EEFD0DF61EF7A0080068F54A /* RACView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACView.h; sourceTree = "<group>"; };
+		EEFD0DF71EF7A0080068F54A /* RACView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACView.m; sourceTree = "<group>"; };
+		EEFD0DF81EF7A0080068F54A /* RACTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTableController.h; sourceTree = "<group>"; };
+		EEFD0DF91EF7A0080068F54A /* RACTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTableController.m; sourceTree = "<group>"; };
+		EEFD0DFA1EF7A0080068F54A /* ScreenSdaptationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenSdaptationViewController.h; sourceTree = "<group>"; };
+		EEFD0DFB1EF7A0080068F54A /* ScreenSdaptationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSdaptationViewController.m; sourceTree = "<group>"; };
+		EEFD0DFC1EF7A0080068F54A /* TableListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableListController.h; sourceTree = "<group>"; };
+		EEFD0DFD1EF7A0080068F54A /* TableListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListController.m; sourceTree = "<group>"; };
+		EEFD0DFF1EF7A0080068F54A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EEFD0E001EF7A0080068F54A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EEFD0E011EF7A0080068F54A /* Singleton-ARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Singleton-ARC.h"; sourceTree = "<group>"; };
+		EEFD0E041EF7A0080068F54A /* BubblingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubblingController.h; sourceTree = "<group>"; };
+		EEFD0E051EF7A0080068F54A /* BubblingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubblingController.m; sourceTree = "<group>"; };
+		EEFD0E061EF7A0080068F54A /* InsertSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSortController.h; sourceTree = "<group>"; };
+		EEFD0E071EF7A0080068F54A /* InsertSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSortController.m; sourceTree = "<group>"; };
+		EEFD0E081EF7A0080068F54A /* QuickSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSortController.h; sourceTree = "<group>"; };
+		EEFD0E091EF7A0080068F54A /* QuickSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSortController.m; sourceTree = "<group>"; };
+		EEFD0E0A1EF7A0080068F54A /* SelectionSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSortController.h; sourceTree = "<group>"; };
+		EEFD0E0B1EF7A0080068F54A /* SelectionSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSortController.m; sourceTree = "<group>"; };
+		EEFD0E0C1EF7A0080068F54A /* SortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTool.h; sourceTree = "<group>"; };
+		EEFD0E0D1EF7A0080068F54A /* SortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,57 +221,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EE3168201ED839D80064AC5B /* RAC+MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				EE3168241ED83A790064AC5B /* ViewModel */,
-				EE3168251ED83A790064AC5B /* Model */,
-				EE3168261ED83A790064AC5B /* View */,
-				EE3168271ED83A790064AC5B /* ViewController */,
-			);
-			path = "RAC+MVVM";
-			sourceTree = "<group>";
-		};
-		EE3168241ED83A790064AC5B /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				EE3168281ED83B990064AC5B /* LoginViewModel.h */,
-				EE3168291ED83B990064AC5B /* LoginViewModel.m */,
-				EE18333B1EDE97DF0048658F /* RequestViewModel.h */,
-				EE18333C1EDE97DF0048658F /* RequestViewModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		EE3168251ED83A790064AC5B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EE31682B1ED83BB50064AC5B /* Account.h */,
-				EE31682C1ED83BB50064AC5B /* Account.m */,
-				EE18333E1EDE98A50048658F /* Book.h */,
-				EE18333F1EDE98A50048658F /* Book.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		EE3168261ED83A790064AC5B /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		EE3168271ED83A790064AC5B /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				EE3168211ED83A2E0064AC5B /* LoginController.h */,
-				EE3168221ED83A2E0064AC5B /* LoginController.m */,
-				EE1833381EDE97610048658F /* RequestController.h */,
-				EE1833391EDE97610048658F /* RequestController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		EE3168331ED973280064AC5B /* MBProgressHUD加载等待特效框 */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,20 +231,6 @@
 				EE3168381ED973280064AC5B /* MBProgressHUD.m */,
 			);
 			path = "MBProgressHUD加载等待特效框";
-			sourceTree = "<group>";
-		};
-		EE49522B1ED30A5600706AA5 /* RAC */ = {
-			isa = PBXGroup;
-			children = (
-				EE3168181ED5B6EE0064AC5B /* RACView.h */,
-				EE3168191ED5B6EE0064AC5B /* RACView.m */,
-				EE3168121ED593E30064AC5B /* RACBaseController.h */,
-				EE3168131ED593E30064AC5B /* RACBaseController.m */,
-				EE1833451EE0018B0048658F /* RACAdvancedController.h */,
-				EE1833461EE0018B0048658F /* RACAdvancedController.m */,
-				EE3168201ED839D80064AC5B /* RAC+MVVM */,
-			);
-			path = RAC;
 			sourceTree = "<group>";
 		};
 		EE7091E31EC98424004103BD = {
@@ -326,11 +261,11 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
-				EE7092321EC98752004103BD /* FunctionDisplay功能展示 */,
+				EEFD0DD91EF7A0080068F54A /* FunctionDisplay */,
 				EE7091F21EC98424004103BD /* AppDelegate.h */,
 				EE7091F31EC98424004103BD /* AppDelegate.m */,
 				EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */,
-				EEEDF9961EEFABD200F799E0 /* GlobeConst.h */,
+				EEFD0DD81EF79FDC0068F54A /* GlobeConst.h */,
 				EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */,
 				EE7091F81EC98424004103BD /* Main.storyboard */,
 				EE7091FB1EC98424004103BD /* Assets.xcassets */,
@@ -378,27 +313,6 @@
 			path = EncapsulationFile;
 			sourceTree = "<group>";
 		};
-		EE7092321EC98752004103BD /* FunctionDisplay功能展示 */ = {
-			isa = PBXGroup;
-			children = (
-				EE70922F1EC98564004103BD /* TableListController.h */,
-				EE7092301EC98564004103BD /* TableListController.m */,
-				EE7092391EC987EC004103BD /* CommonlyUsedViewController.h */,
-				EE70923A1EC987EC004103BD /* CommonlyUsedViewController.m */,
-				EE7092331EC98794004103BD /* ScreenSdaptationViewController.h */,
-				EE7092341EC98794004103BD /* ScreenSdaptationViewController.m */,
-				EE7092361EC987C3004103BD /* CountdownViewController.h */,
-				EE7092371EC987C3004103BD /* CountdownViewController.m */,
-				EE4952281ED3094200706AA5 /* RACTableController.h */,
-				EE4952291ED3094200706AA5 /* RACTableController.m */,
-				EEFD0D5B1EF386B60068F54A /* 单利的封装和用法 */,
-				EEFD0D5A1EF386790068F54A /* 排序算法 */,
-				EE49522B1ED30A5600706AA5 /* RAC */,
-			);
-			name = "FunctionDisplay功能展示";
-			path = FunctionDisplay;
-			sourceTree = "<group>";
-		};
 		EE70923F1EC9C632004103BD /* Category分类 */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,36 +347,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		EEFD0D5A1EF386790068F54A /* 排序算法 */ = {
-			isa = PBXGroup;
-			children = (
-				EEFD0D901EF795FD0068F54A /* SortTool.h */,
-				EEFD0D911EF795FD0068F54A /* SortTool.m */,
-				EEFD0D5C1EF387A80068F54A /* AlgorithmTableController.h */,
-				EEFD0D5D1EF387A80068F54A /* AlgorithmTableController.m */,
-				EEFD0D5F1EF3891F0068F54A /* QuickSortController.h */,
-				EEFD0D601EF3891F0068F54A /* QuickSortController.m */,
-				EEFD0D621EF389850068F54A /* BubblingController.h */,
-				EEFD0D631EF389850068F54A /* BubblingController.m */,
-				EEFD0D651EF3AB530068F54A /* SelectionSortController.h */,
-				EEFD0D661EF3AB530068F54A /* SelectionSortController.m */,
-				EEFD0D6A1EF3CB680068F54A /* InsertSortController.h */,
-				EEFD0D6B1EF3CB680068F54A /* InsertSortController.m */,
-			);
-			name = "排序算法";
-			path = "算法";
-			sourceTree = "<group>";
-		};
-		EEFD0D5B1EF386B60068F54A /* 单利的封装和用法 */ = {
-			isa = PBXGroup;
-			children = (
-				EEEDF9991EEFCC4A00F799E0 /* Singleton-ARC.h */,
-				EEEDF99E1EEFD06900F799E0 /* Person.h */,
-				EEEDF99F1EEFD06900F799E0 /* Person.m */,
-			);
-			path = "单利的封装和用法";
-			sourceTree = "<group>";
-		};
 		EEFD0D7F1EF3EE780068F54A /* 倒计时 */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,6 +372,120 @@
 				EEFD0D871EF3EE780068F54A /* ScreenAdaptation.m */,
 			);
 			path = "屏幕适配";
+			sourceTree = "<group>";
+		};
+		EEFD0DD91EF7A0080068F54A /* FunctionDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DFC1EF7A0080068F54A /* TableListController.h */,
+				EEFD0DFD1EF7A0080068F54A /* TableListController.m */,
+				EEFD0DDC1EF7A0080068F54A /* CommonlyUsedViewController.h */,
+				EEFD0DDD1EF7A0080068F54A /* CommonlyUsedViewController.m */,
+				EEFD0DFA1EF7A0080068F54A /* ScreenSdaptationViewController.h */,
+				EEFD0DFB1EF7A0080068F54A /* ScreenSdaptationViewController.m */,
+				EEFD0DDE1EF7A0080068F54A /* CountdownViewController.h */,
+				EEFD0DDF1EF7A0080068F54A /* CountdownViewController.m */,
+				EEFD0DF81EF7A0080068F54A /* RACTableController.h */,
+				EEFD0DF91EF7A0080068F54A /* RACTableController.m */,
+				EEFD0DDA1EF7A0080068F54A /* AlgorithmTableController.h */,
+				EEFD0DDB1EF7A0080068F54A /* AlgorithmTableController.m */,
+				EEFD0DE01EF7A0080068F54A /* RAC */,
+				EEFD0DFE1EF7A0080068F54A /* 单利的封装和用法 */,
+				EEFD0E031EF7A0080068F54A /* 算法 */,
+			);
+			path = FunctionDisplay;
+			sourceTree = "<group>";
+		};
+		EEFD0DE01EF7A0080068F54A /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DE11EF7A0080068F54A /* RAC+MVVM */,
+				EEFD0DF21EF7A0080068F54A /* RACAdvancedController.h */,
+				EEFD0DF31EF7A0080068F54A /* RACAdvancedController.m */,
+				EEFD0DF41EF7A0080068F54A /* RACBaseController.h */,
+				EEFD0DF51EF7A0080068F54A /* RACBaseController.m */,
+				EEFD0DF61EF7A0080068F54A /* RACView.h */,
+				EEFD0DF71EF7A0080068F54A /* RACView.m */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		EEFD0DE11EF7A0080068F54A /* RAC+MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DE21EF7A0080068F54A /* Model */,
+				EEFD0DE71EF7A0080068F54A /* View */,
+				EEFD0DE81EF7A0080068F54A /* ViewController */,
+				EEFD0DED1EF7A0080068F54A /* ViewModel */,
+			);
+			path = "RAC+MVVM";
+			sourceTree = "<group>";
+		};
+		EEFD0DE21EF7A0080068F54A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DE31EF7A0080068F54A /* Account.h */,
+				EEFD0DE41EF7A0080068F54A /* Account.m */,
+				EEFD0DE51EF7A0080068F54A /* Book.h */,
+				EEFD0DE61EF7A0080068F54A /* Book.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEFD0DE71EF7A0080068F54A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEFD0DE81EF7A0080068F54A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DE91EF7A0080068F54A /* LoginController.h */,
+				EEFD0DEA1EF7A0080068F54A /* LoginController.m */,
+				EEFD0DEB1EF7A0080068F54A /* RequestController.h */,
+				EEFD0DEC1EF7A0080068F54A /* RequestController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EEFD0DED1EF7A0080068F54A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DEE1EF7A0080068F54A /* LoginViewModel.h */,
+				EEFD0DEF1EF7A0080068F54A /* LoginViewModel.m */,
+				EEFD0DF01EF7A0080068F54A /* RequestViewModel.h */,
+				EEFD0DF11EF7A0080068F54A /* RequestViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEFD0DFE1EF7A0080068F54A /* 单利的封装和用法 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0DFF1EF7A0080068F54A /* Person.h */,
+				EEFD0E001EF7A0080068F54A /* Person.m */,
+				EEFD0E011EF7A0080068F54A /* Singleton-ARC.h */,
+			);
+			path = "单利的封装和用法";
+			sourceTree = "<group>";
+		};
+		EEFD0E031EF7A0080068F54A /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0E0C1EF7A0080068F54A /* SortTool.h */,
+				EEFD0E0D1EF7A0080068F54A /* SortTool.m */,
+				EEFD0E041EF7A0080068F54A /* BubblingController.h */,
+				EEFD0E051EF7A0080068F54A /* BubblingController.m */,
+				EEFD0E061EF7A0080068F54A /* InsertSortController.h */,
+				EEFD0E071EF7A0080068F54A /* InsertSortController.m */,
+				EEFD0E081EF7A0080068F54A /* QuickSortController.h */,
+				EEFD0E091EF7A0080068F54A /* QuickSortController.m */,
+				EEFD0E0A1EF7A0080068F54A /* SelectionSortController.h */,
+				EEFD0E0B1EF7A0080068F54A /* SelectionSortController.m */,
+			);
+			path = "算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -676,48 +674,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFD0E121EF7A0080068F54A /* Book.m in Sources */,
+				EEFD0E1F1EF7A0080068F54A /* InsertSortController.m in Sources */,
+				EEFD0E171EF7A0080068F54A /* RACAdvancedController.m in Sources */,
 				EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */,
-				EEFD0D611EF3891F0068F54A /* QuickSortController.m in Sources */,
-				EEEDF9A01EEFD06900F799E0 /* Person.m in Sources */,
-				EE7092351EC98794004103BD /* ScreenSdaptationViewController.m in Sources */,
+				EEFD0E181EF7A0080068F54A /* RACBaseController.m in Sources */,
 				EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */,
-				EEFD0D921EF795FE0068F54A /* SortTool.m in Sources */,
-				EE18333D1EDE97DF0048658F /* RequestViewModel.m in Sources */,
-				EE70923B1EC987EC004103BD /* CommonlyUsedViewController.m in Sources */,
-				EEFD0D5E1EF387A80068F54A /* AlgorithmTableController.m in Sources */,
 				EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */,
-				EE31681A1ED5B6EE0064AC5B /* RACView.m in Sources */,
 				EEFD0D8A1EF3EE780068F54A /* ScreenAdaptation.m in Sources */,
+				EEFD0E151EF7A0080068F54A /* LoginViewModel.m in Sources */,
+				EEFD0E201EF7A0080068F54A /* QuickSortController.m in Sources */,
+				EEFD0E101EF7A0080068F54A /* CountdownViewController.m in Sources */,
+				EEFD0E221EF7A0080068F54A /* SortTool.m in Sources */,
+				EEFD0E1B1EF7A0080068F54A /* ScreenSdaptationViewController.m in Sources */,
 				EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */,
 				EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */,
+				EEFD0E0F1EF7A0080068F54A /* CommonlyUsedViewController.m in Sources */,
+				EEFD0E211EF7A0080068F54A /* SelectionSortController.m in Sources */,
+				EEFD0E111EF7A0080068F54A /* Account.m in Sources */,
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
 				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
-				EE1833471EE0018B0048658F /* RACAdvancedController.m in Sources */,
-				EE49522A1ED3094200706AA5 /* RACTableController.m in Sources */,
-				EE1833401EDE98A50048658F /* Book.m in Sources */,
+				EEFD0E0E1EF7A0080068F54A /* AlgorithmTableController.m in Sources */,
+				EEFD0E161EF7A0080068F54A /* RequestViewModel.m in Sources */,
+				EEFD0E1E1EF7A0080068F54A /* BubblingController.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
 				EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */,
 				EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */,
-				EE3168141ED593E30064AC5B /* RACBaseController.m in Sources */,
-				EE7092311EC98564004103BD /* TableListController.m in Sources */,
 				EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */,
-				EEFD0D641EF389850068F54A /* BubblingController.m in Sources */,
+				EEFD0E191EF7A0080068F54A /* RACView.m in Sources */,
+				EEFD0E131EF7A0080068F54A /* LoginController.m in Sources */,
 				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
+				EEFD0E141EF7A0080068F54A /* RequestController.m in Sources */,
+				EEFD0E1A1EF7A0080068F54A /* RACTableController.m in Sources */,
+				EEFD0E1D1EF7A0080068F54A /* Person.m in Sources */,
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
-				EE3168231ED83A2E0064AC5B /* LoginController.m in Sources */,
-				EEFD0D671EF3AB530068F54A /* SelectionSortController.m in Sources */,
 				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
-				EE7092381EC987C3004103BD /* CountdownViewController.m in Sources */,
 				EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */,
 				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
+				EEFD0E1C1EF7A0080068F54A /* TableListController.m in Sources */,
 				EE7091F11EC98424004103BD /* main.m in Sources */,
 				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,
-				EE31682D1ED83BB50064AC5B /* Account.m in Sources */,
-				EEFD0D6C1EF3CB680068F54A /* InsertSortController.m in Sources */,
-				EE18333A1EDE97610048658F /* RequestController.m in Sources */,
 				EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */,
-				EE31682A1ED83B990064AC5B /* LoginViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
