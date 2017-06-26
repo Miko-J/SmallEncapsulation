@@ -24,6 +24,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
+    self.button.selected = NO;
     self.navigationController.delegate = self;
     
 }
@@ -89,10 +90,14 @@
                                    animationControllerForOperation:(UINavigationControllerOperation)operation
                                                 fromViewController:(UIViewController *)fromVC
                                                   toViewController:(UIViewController *)toVC{
-    if (operation == UINavigationControllerOperationPush) {
-        
-        PingTransition *ping = [PingTransition new];
-        return ping;
+    if (self.button.selected) {
+        if (operation == UINavigationControllerOperationPush) {
+            
+            PingTransition *ping = [PingTransition new];
+            return ping;
+        }else{
+            return nil;
+        }
     }else{
         return nil;
     }
@@ -111,6 +116,7 @@
         @weakify(self);
         [[_button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
             @strongify(self);
+            _button.selected = !_button.selected;
             [self.navigationController pushViewController:[[AnimationTableController alloc] init] animated:YES];
         }];
     }
