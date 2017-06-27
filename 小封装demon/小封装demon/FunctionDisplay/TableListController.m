@@ -78,7 +78,6 @@
             break;
         case 3:
             [self.navigationController pushViewController:[[RACTableController alloc] init] animated:YES];
-            
             break;
         case 4:
             [self.navigationController pushViewController:[[AlgorithmTableController alloc] init] animated:YES];
