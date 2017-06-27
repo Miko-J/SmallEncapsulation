@@ -54,7 +54,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     //声明一个重用ID
-    static NSString *ID = @"Algorithm_Cell";
+    static NSString *ID = @"tableList_Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
@@ -78,8 +78,11 @@
             break;
         case 3:
             [self.navigationController pushViewController:[[RACTableController alloc] init] animated:YES];
+            
+            break;
         case 4:
             [self.navigationController pushViewController:[[AlgorithmTableController alloc] init] animated:YES];
+            break;
         default:
             break;
     }
@@ -98,7 +101,8 @@
         }else{
             return nil;
         }
-    }else{
+    }
+    else{
         return nil;
     }
 }
@@ -116,7 +120,7 @@
         @weakify(self);
         [[_button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
             @strongify(self);
-            _button.selected = !_button.selected;
+            _button.selected = YES;
             [self.navigationController pushViewController:[[AnimationTableController alloc] init] animated:YES];
         }];
     }

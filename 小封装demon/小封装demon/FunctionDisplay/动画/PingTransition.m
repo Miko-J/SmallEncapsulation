@@ -24,7 +24,7 @@
     
     self.transitionContext = transitionContext;
 
-    TableListController * fromVC = (TableListController *)[transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+    TableListController *fromVC = (TableListController *)[transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     AnimationTableController *toVC = (AnimationTableController *)[transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     UIView *contView = [transitionContext containerView];
 
