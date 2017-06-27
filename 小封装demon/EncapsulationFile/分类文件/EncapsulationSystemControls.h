@@ -36,7 +36,7 @@
 @end
 
 
-#pragma mark: -图片
+#pragma mark: -图片 UIImageView
 
 @interface UIImageView (encapsulationImageView)
 
@@ -73,7 +73,7 @@
 
 @end
 
-#pragma mark: -按钮／改变按钮和图片的位置
+#pragma mark: -按钮／改变按钮和图片的位置 UIButton
 
 typedef NS_ENUM(NSUInteger, MKButtonEdgeInsetsStyle) {
     MKButtonEdgeInsetsStyleTop, // image在上，label在下
@@ -100,7 +100,7 @@ typedef void(^btnClickedBlock) (); //关联block对象（按钮的点击事件�
 
 @end
 
-#pragma mark: -返回一张圆形的图片／压缩图片／拉伸图片／tabbar原始图片／生成二维码／带有logo的二维码
+#pragma mark: -返回一张圆形的图片／压缩图片／拉伸图片／tabbar原始图片／生成二维码／带有logo的二维码  UIImage
 @interface UIImage (encapsulationImage)
 /**
  返回一个圆形的图片
@@ -149,7 +149,7 @@ typedef void(^btnClickedBlock) (); //关联block对象（按钮的点击事件�
 + (instancetype _Nullable )generateWithLogoQRCodeData:(NSString *_Nullable)data logoImageName:(NSString *_Nullable)logoImageName logoScaleToSuperView:(CGFloat)logoScaleToSuperView;
 @end
 
-#pragma mark: -计算文字的尺寸／base64编码／base64解码／判断密码强度/检测手机号是否正确／检测密码是否为3中符号的两种／检测名称是否中文，英文字母和数字及_／检测密码是否数字和字母/根据索引转星期
+#pragma mark: -计算文字的尺寸／base64编码／base64解码／判断密码强度/检测手机号是否正确／检测密码是否为3中符号的两种／检测名称是否中文，英文字母和数字及_／检测密码是否数字和字母/根据索引转星期  NSString
 //声明block
 typedef void (^pWeakBlock)();
 
@@ -230,7 +230,7 @@ typedef void (^chineseBlock)();
 
 @end
 
-#pragma mark: -字符串转nsnumber
+#pragma mark: -字符串转  NSNumber
 @interface NSNumber (encapsulationData)
 
 
@@ -245,7 +245,7 @@ typedef void (^chineseBlock)();
 @end
 
 
-#pragma mark: - 颜色的16进制转换
+#pragma mark: - 颜色的16进制转换  UIColor
 @interface UIColor (encapsulationUIColor)
 
 /**
@@ -282,7 +282,7 @@ typedef void (^chineseBlock)();
 
 @end
 
-#pragma mark: -手势的点击事件／控件回到原来位置的手势动画／控件设置圆角／绘制分割线
+#pragma mark: -手势的点击事件／控件回到原来位置的手势动画／控件设置圆角／绘制分割线  UIView
 
 typedef void (^tapAction)();
 
@@ -343,6 +343,7 @@ typedef void (^tapAction)();
  @param lineColor 线的颜色
  */
 - (void)drawLineWithColor: (UIColor *_Nullable)lineColor;
+
 /**
  *  Make view draggable.
  *
@@ -350,7 +351,6 @@ typedef void (^tapAction)();
  *  @param damping Value from 0.0 to 1.0. 0.0 is the least oscillation. default is 0.4.
  */
 - (void)makeDraggableInView:(UIView *_Nullable)view damping:(CGFloat)damping;
-
 - (void)makeDraggable;
 
 /**
@@ -358,19 +358,9 @@ typedef void (^tapAction)();
  */
 - (void)removeDraggable;
 
-/**
- *  If you call make draggable method in the initialize method such as `-initWithFrame:`,
- *  `-viewDidLoad`, the view may not be layout correctly at that time. So you should
- *  update snap point in `-layoutSubviews` or `-viewDidLayoutSubviews`.
- *
- *  By the way, you can call make draggable method in `-layoutSubviews` or
- *  `-viewDidLayoutSubviews` directly instead of update snap point.
- */
-- (void)updateSnapPoint;
-
 @end
 
-#pragma mark: -crc16位校验
+#pragma mark: -crc16位校验  NSData
 @interface NSData (encapsulationData)
 
 /**
@@ -428,7 +418,7 @@ typedef void (^CancelBtnBlock)();
 
 @end
 
-#pragma mark: -日期的计算
+#pragma mark: -日期的计算  NSDate
 
 @interface NSDate (encapsulation)
 
