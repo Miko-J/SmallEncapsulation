@@ -37,7 +37,6 @@
 }
 //设置右侧item
 - (void)setUpRightBarButtonItem{
-    self.button.frame = CGRectMake(0, 0, 50, 30);
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.button];
 }
 
@@ -115,7 +114,11 @@
 
 - (UIButton *)button{
     if (!_button) {
-        _button = [UIButton buttonWithType:UIButtonTypeCustom title:@"动画" titleColor:[UIColor blackColor] disBGImageName:nil normalBGImageName:nil];
+        _button = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_button setImage:[UIImage imageNamed:@"Menu_icn"] forState:UIControlStateNormal];
+        _button.backgroundColor = [UIColor lightGrayColor];
+        _button.frame = CGRectMake(0, 0, 35, 35);
+        [_button setCornerRadius:25];
         @weakify(self);
         [[_button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
             @strongify(self);

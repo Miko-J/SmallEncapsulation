@@ -9,8 +9,10 @@
 #import "AnimationTableController.h"
 #import "EncapsulationSystemControls.h"
 #import "PingInvertTransition.h"
+#import "ReactiveObjC.h"
 @interface AnimationTableController ()<UINavigationControllerDelegate>
 @property (nonatomic, strong) UIImageView *backImageView;
+@property (nonatomic, strong) UIButton *button;
 @end
 
 @implementation AnimationTableController{
@@ -28,6 +30,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.button];
     //设置ui
     [self setUpUI];
 }
@@ -82,6 +86,22 @@
     }else{
         return nil;
     }
+}
+
+- (UIButton *)button{
+    if (!_button) {
+        _button = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_button setImage:[UIImage imageNamed:@"Close_icn"] forState:UIControlStateNormal];
+        _button.backgroundColor = [UIColor lightGrayColor];
+        _button.frame = CGRectMake(0, 0, 35, 35);
+        [_button setCornerRadius:25];
+        @weakify(self);
+        [[_button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+            @strongify(self);
+            [self.navigationController popViewControllerAnimated:YES];
+        }];
+    }
+    return _button;
 }
 
 @end

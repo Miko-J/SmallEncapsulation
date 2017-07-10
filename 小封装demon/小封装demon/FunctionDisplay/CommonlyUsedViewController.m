@@ -49,7 +49,6 @@ const简介:之前常用的字符串常量，一般是抽成宏，但是苹果�
     //单利
     [self singleton];
 
-    
 }
 - (void)setUpUI{
     _flag = NO;
@@ -85,4 +84,5 @@ const简介:之前常用的字符串常量，一般是抽成宏，但是苹果�
     
     NSLog(@"person1的地址%@,  person2的地址%@",person1,person2);
 }
+
 @end
