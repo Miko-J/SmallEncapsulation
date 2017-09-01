@@ -73,7 +73,7 @@
 
 @end
 
-#pragma mark: -按钮／改变按钮和图片的位置 UIButton
+#pragma mark: -按钮／扩展按钮响应区域/改变按钮和图片的位置 UIButton
 
 typedef NS_ENUM(NSUInteger, MKButtonEdgeInsetsStyle) {
     MKButtonEdgeInsetsStyleTop, // image在上，label在下
