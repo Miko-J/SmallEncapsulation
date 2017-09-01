@@ -49,7 +49,10 @@
 #pragma mark: -按钮／改变按钮和图片的位置
 
 static const char btnKey;
-
+static const char topEdgeKey;
+static const char leftEdgeKey;
+static const char bottomEdgeKey;
+static const char rightEdgeKey;
 @implementation UIButton (encapsulationBtn)
 
 + (instancetype)buttonWithType:(UIButtonType)buttonType title:(NSString *)title titleColor:(UIColor *)titleColor imageName:(NSString *)imageName bgImageName:(NSString *)bgImageName highImageName:(NSString *)highImageName selBgImageName:(NSString *)selBgImageName btnClickedBlock:(btnClickedBlock)block{
@@ -84,6 +87,49 @@ static const char btnKey;
     [btn setBackgroundImage:[UIImage imageNamed:normalBGImageName] forState:UIControlStateNormal];
     return btn;
 }
+
+//拓展按钮响应区域
+-(void)setEnlargedEdge:(CGFloat)enlargedEdge
+{
+    [self setEnlargedEdgeWithTop:enlargedEdge left:enlargedEdge bottom:enlargedEdge right:enlargedEdge];
+}
+-(void)setEnlargedEdgeWithTop:(CGFloat)top left:(CGFloat)left bottom:(CGFloat)bottom right:(CGFloat)right
+{
+    objc_setAssociatedObject(self, &topEdgeKey, [NSNumber numberWithFloat:top], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &leftEdgeKey, [NSNumber numberWithFloat:left], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &bottomEdgeKey, [NSNumber numberWithFloat:bottom], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &rightEdgeKey, [NSNumber numberWithFloat:right], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+-(CGFloat)enlargedEdge
+{
+    return [(NSNumber *)objc_getAssociatedObject(self, &topEdgeKey) floatValue];
+}
+-(CGRect)enlargedRect
+{
+    NSNumber *topEdge = objc_getAssociatedObject(self, &topEdgeKey);
+    NSNumber *leftEdge = objc_getAssociatedObject(self, &leftEdgeKey);
+    NSNumber *bottomEdge = objc_getAssociatedObject(self, &bottomEdgeKey);
+    NSNumber *rightEdge = objc_getAssociatedObject(self, &rightEdgeKey);
+    
+    if(topEdge && leftEdge && bottomEdge && rightEdge)
+    {
+        CGRect enlargedRect = CGRectMake(self.bounds.origin.x-leftEdge.floatValue, self.bounds.origin.y - topEdge.floatValue, self.bounds.size.width+ leftEdge.floatValue +rightEdge.floatValue, self.bounds.size.height+topEdge.floatValue+bottomEdge.floatValue);
+        return enlargedRect;
+    }
+    
+    return self.bounds;
+    
+}
+-(UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
+{
+    if(self.alpha <= 0.01 || !self.userInteractionEnabled ||self.hidden)
+    {
+        return nil;
+    }
+    CGRect enlargedRect = [self enlargedRect];
+    return CGRectContainsPoint(enlargedRect, point) ? self: nil;
+}
+
 //重新高亮方法，去掉高亮状态
 - (void)setHighlighted:(BOOL)highlighted{
 
