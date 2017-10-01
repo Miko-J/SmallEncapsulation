@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0406581F8096E40098B548 /* EncapsulationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0406571F8096E40098B548 /* EncapsulationTableViewCell.m */; };
+		EE04065B1F80C2810098B548 /* DisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04065A1F80C2810098B548 /* DisTableViewController.m */; };
 		EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */; };
 		EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */; };
 		EE31683A1ED973280064AC5B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE3168361ED973280064AC5B /* MBProgressHUD.bundle */; };
@@ -82,6 +84,10 @@
 		68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.release.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.release.xcconfig"; sourceTree = "<group>"; };
 		7C6442B4D820BE74D510A8E3 /* Pods-小封装demon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.debug.xcconfig"; sourceTree = "<group>"; };
 		CD5053486263CA89F1545FDA /* Pods____demon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____demon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0406561F8096E40098B548 /* EncapsulationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncapsulationTableViewCell.h; sourceTree = "<group>"; };
+		EE0406571F8096E40098B548 /* EncapsulationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncapsulationTableViewCell.m; sourceTree = "<group>"; };
+		EE0406591F80C2810098B548 /* DisTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisTableViewController.h; sourceTree = "<group>"; };
+		EE04065A1F80C2810098B548 /* DisTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisTableViewController.m; sourceTree = "<group>"; };
 		EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+encapsulation.h"; sourceTree = "<group>"; };
 		EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+encapsulation.m"; sourceTree = "<group>"; };
 		EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
@@ -230,6 +236,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EE0406551F80967C0098B548 /* 自定义cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE0406561F8096E40098B548 /* EncapsulationTableViewCell.h */,
+				EE0406571F8096E40098B548 /* EncapsulationTableViewCell.m */,
+				EE0406591F80C2810098B548 /* DisTableViewController.h */,
+				EE04065A1F80C2810098B548 /* DisTableViewController.m */,
+			);
+			path = "自定义cell";
+			sourceTree = "<group>";
+		};
 		EE3168331ED973280064AC5B /* MBProgressHUD加载等待特效框 */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +287,11 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
+				EE0406551F80967C0098B548 /* 自定义cell */,
+				EEFD0E031EF7A0080068F54A /* 算法 */,
+				EEFD0DFE1EF7A0080068F54A /* 单利的封装和用法 */,
+				EEFD0DE01EF7A0080068F54A /* RAC */,
+				EE8F414E1EF7BDB400DD5265 /* 动画 */,
 				EEFD0DD91EF7A0080068F54A /* FunctionDisplay */,
 				EE7091F21EC98424004103BD /* AppDelegate.h */,
 				EE7091F31EC98424004103BD /* AppDelegate.m */,
@@ -411,10 +433,6 @@
 				EEFD0DF91EF7A0080068F54A /* RACTableController.m */,
 				EEFD0DDA1EF7A0080068F54A /* AlgorithmTableController.h */,
 				EEFD0DDB1EF7A0080068F54A /* AlgorithmTableController.m */,
-				EE8F414E1EF7BDB400DD5265 /* 动画 */,
-				EEFD0DE01EF7A0080068F54A /* RAC */,
-				EEFD0DFE1EF7A0080068F54A /* 单利的封装和用法 */,
-				EEFD0E031EF7A0080068F54A /* 算法 */,
 			);
 			path = FunctionDisplay;
 			sourceTree = "<group>";
@@ -729,10 +747,12 @@
 				EEFD0E191EF7A0080068F54A /* RACView.m in Sources */,
 				EEFD0E131EF7A0080068F54A /* LoginController.m in Sources */,
 				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
+				EE0406581F8096E40098B548 /* EncapsulationTableViewCell.m in Sources */,
 				EEFD0E141EF7A0080068F54A /* RequestController.m in Sources */,
 				EEFD0E1A1EF7A0080068F54A /* RACTableController.m in Sources */,
 				EEFD0E1D1EF7A0080068F54A /* Person.m in Sources */,
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
+				EE04065B1F80C2810098B548 /* DisTableViewController.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
 				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
 				EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */,

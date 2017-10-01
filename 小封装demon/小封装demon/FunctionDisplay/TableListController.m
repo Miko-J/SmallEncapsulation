@@ -16,6 +16,7 @@
 #import "PingTransition.h"                   //动画
 #import "AnimationTableController.h"         //动画的表
 #import "ReactiveObjC.h"
+#import "DisTableViewController.h"
 @interface TableListController ()<UINavigationControllerDelegate>
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -81,6 +82,9 @@
         case 4:
             [self.navigationController pushViewController:[[AlgorithmTableController alloc] init] animated:YES];
             break;
+        case 5:
+            [self.navigationController pushViewController:[[DisTableViewController alloc] init] animated:YES];
+            break;
         default:
             break;
     }
@@ -107,7 +111,7 @@
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法",@"排序算法"];
+        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法",@"排序算法",@"自定义cell"];
     }
     return _titleArray;
 }
