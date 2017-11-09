@@ -7,7 +7,8 @@
 //
 
 #import "EncapsulationTextView.h"
-
+#import <objc/runtime.h>
+#import <objc/message.h>
 @implementation EncapsulationTextView
 
 
@@ -19,6 +20,17 @@
 }
 
 - (void)setUpUI{
+    // 通过运行时，发现UITextView有一个叫做“_placeHolderLabel”的私有变量
+    unsigned int count = 0;
+    Ivar *ivars = class_copyIvarList([UITextView class], &count);
+    
+    for (int i = 0; i < count; i++) {
+        Ivar ivar = ivars[i];
+        const char *name = ivar_getName(ivar);
+        NSString *objcName = [NSString stringWithUTF8String:name];
+        NSLog(@"%d : %@",i,objcName);
+    }
+    
     [self addSubview:self.placeHolderLable];
     [self setValue:self.placeHolderLable forKey:@"_placeholderLabel"];
 }
