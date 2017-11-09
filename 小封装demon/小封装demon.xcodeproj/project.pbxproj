@@ -25,15 +25,17 @@
 		EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092451EC9C632004103BD /* NSNumber+encapsulationData.m */; };
 		EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092471EC9C632004103BD /* NSString+encapsulationNsstring.m */; };
 		EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092491EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m */; };
-		EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70924B1EC9C632004103BD /* UIButton+encapsulationBtn.m */; };
 		EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70924D1EC9C632004103BD /* UIColor+encapsulationUIColor.m */; };
 		EE70925D1EC9C632004103BD /* UIImage+encapsulationImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70924F1EC9C632004103BD /* UIImage+encapsulationImage.m */; };
-		EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */; };
-		EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */; };
-		EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */; };
 		EE8F41531EF7BDB400DD5265 /* PingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F41501EF7BDB400DD5265 /* PingInvertTransition.m */; };
 		EE8F41541EF7BDB400DD5265 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F41521EF7BDB400DD5265 /* PingTransition.m */; };
 		EE8F415D1EF7CB7B00DD5265 /* AnimationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F415C1EF7CB7B00DD5265 /* AnimationTableController.m */; };
+		EECCF0711FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF06A1FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m */; };
+		EECCF0721FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF06C1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m */; };
+		EECCF0731FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF06E1FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m */; };
+		EECCF0741FB3DDCC0016EAD5 /* UIView+encapsulationUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF0701FB3DDCC0016EAD5 /* UIView+encapsulationUIView.m */; };
+		EECCF0841FB3FAA50016EAD5 /* EncapsulationTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF0831FB3FAA50016EAD5 /* EncapsulationTextView.m */; };
+		EECCF0871FB3FAD10016EAD5 /* EncapsulationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF0861FB3FAD10016EAD5 /* EncapsulationTextField.m */; };
 		EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */; };
 		EEEDF9A31EF0C00500F799E0 /* NSObject+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */; };
 		EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0D811EF3EE780068F54A /* CountdownTimer.m */; };
@@ -120,24 +122,29 @@
 		EE7092471EC9C632004103BD /* NSString+encapsulationNsstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encapsulationNsstring.m"; sourceTree = "<group>"; };
 		EE7092481EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+encapsulationUIAlertController.h"; sourceTree = "<group>"; };
 		EE7092491EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+encapsulationUIAlertController.m"; sourceTree = "<group>"; };
-		EE70924A1EC9C632004103BD /* UIButton+encapsulationBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+encapsulationBtn.h"; sourceTree = "<group>"; };
-		EE70924B1EC9C632004103BD /* UIButton+encapsulationBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+encapsulationBtn.m"; sourceTree = "<group>"; };
 		EE70924C1EC9C632004103BD /* UIColor+encapsulationUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+encapsulationUIColor.h"; sourceTree = "<group>"; };
 		EE70924D1EC9C632004103BD /* UIColor+encapsulationUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+encapsulationUIColor.m"; sourceTree = "<group>"; };
 		EE70924E1EC9C632004103BD /* UIImage+encapsulationImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+encapsulationImage.h"; sourceTree = "<group>"; };
 		EE70924F1EC9C632004103BD /* UIImage+encapsulationImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+encapsulationImage.m"; sourceTree = "<group>"; };
-		EE7092501EC9C632004103BD /* UIImageView+encapsulationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+encapsulationImageView.h"; sourceTree = "<group>"; };
-		EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+encapsulationImageView.m"; sourceTree = "<group>"; };
-		EE7092521EC9C632004103BD /* UILabel+encapsulationlable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+encapsulationlable.h"; sourceTree = "<group>"; };
-		EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+encapsulationlable.m"; sourceTree = "<group>"; };
-		EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+encapsulationUIView.h"; sourceTree = "<group>"; };
-		EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
 		EE8F414F1EF7BDB400DD5265 /* PingInvertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingInvertTransition.h; sourceTree = "<group>"; };
 		EE8F41501EF7BDB400DD5265 /* PingInvertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingInvertTransition.m; sourceTree = "<group>"; };
 		EE8F41511EF7BDB400DD5265 /* PingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransition.h; sourceTree = "<group>"; };
 		EE8F41521EF7BDB400DD5265 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
 		EE8F415B1EF7CB7B00DD5265 /* AnimationTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableController.h; sourceTree = "<group>"; };
 		EE8F415C1EF7CB7B00DD5265 /* AnimationTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableController.m; sourceTree = "<group>"; };
+		EECCF0691FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+encapsulationBtn.h"; sourceTree = "<group>"; };
+		EECCF06A1FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+encapsulationBtn.m"; sourceTree = "<group>"; };
+		EECCF06B1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+encapsulationImageView.h"; sourceTree = "<group>"; };
+		EECCF06C1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+encapsulationImageView.m"; sourceTree = "<group>"; };
+		EECCF06D1FB3DDCC0016EAD5 /* UILabel+encapsulationlable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+encapsulationlable.h"; sourceTree = "<group>"; };
+		EECCF06E1FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+encapsulationlable.m"; sourceTree = "<group>"; };
+		EECCF06F1FB3DDCC0016EAD5 /* UIView+encapsulationUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+encapsulationUIView.h"; sourceTree = "<group>"; };
+		EECCF0701FB3DDCC0016EAD5 /* UIView+encapsulationUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+encapsulationUIView.m"; sourceTree = "<group>"; };
+		EECCF0821FB3FAA50016EAD5 /* EncapsulationTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncapsulationTextView.h; sourceTree = "<group>"; };
+		EECCF0831FB3FAA50016EAD5 /* EncapsulationTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncapsulationTextView.m; sourceTree = "<group>"; };
+		EECCF0851FB3FAD10016EAD5 /* EncapsulationTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncapsulationTextField.h; sourceTree = "<group>"; };
+		EECCF0861FB3FAD10016EAD5 /* EncapsulationTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncapsulationTextField.m; sourceTree = "<group>"; };
+		EECCF0921FB405AB0016EAD5 /* CodeSpecification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeSpecification.h; sourceTree = "<group>"; };
 		EEEDF9971EEFAC3F00F799E0 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
 		EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+encapsulation.h"; sourceTree = "<group>"; };
 		EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+encapsulation.m"; sourceTree = "<group>"; };
@@ -287,6 +294,8 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
+				EECCF0881FB3FC2F0016EAD5 /* 代码规范 */,
+				EECCF0811FB3FA740016EAD5 /* 自定义textview和textfield */,
 				EE0406551F80967C0098B548 /* 自定义cell */,
 				EEFD0E031EF7A0080068F54A /* 算法 */,
 				EEFD0DFE1EF7A0080068F54A /* 单利的封装和用法 */,
@@ -347,6 +356,7 @@
 		EE70923F1EC9C632004103BD /* Category分类 */ = {
 			isa = PBXGroup;
 			children = (
+				EECCF0681FB3DDCC0016EAD5 /* UIResponder */,
 				EE7092401EC9C632004103BD /* NSData+encapsulationData.h */,
 				EE7092411EC9C632004103BD /* NSData+encapsulationData.m */,
 				EE7092421EC9C632004103BD /* NSDate+encapsulation.h */,
@@ -357,18 +367,10 @@
 				EE7092471EC9C632004103BD /* NSString+encapsulationNsstring.m */,
 				EE7092481EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.h */,
 				EE7092491EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m */,
-				EE70924A1EC9C632004103BD /* UIButton+encapsulationBtn.h */,
-				EE70924B1EC9C632004103BD /* UIButton+encapsulationBtn.m */,
 				EE70924C1EC9C632004103BD /* UIColor+encapsulationUIColor.h */,
 				EE70924D1EC9C632004103BD /* UIColor+encapsulationUIColor.m */,
 				EE70924E1EC9C632004103BD /* UIImage+encapsulationImage.h */,
 				EE70924F1EC9C632004103BD /* UIImage+encapsulationImage.m */,
-				EE7092501EC9C632004103BD /* UIImageView+encapsulationImageView.h */,
-				EE7092511EC9C632004103BD /* UIImageView+encapsulationImageView.m */,
-				EE7092521EC9C632004103BD /* UILabel+encapsulationlable.h */,
-				EE7092531EC9C632004103BD /* UILabel+encapsulationlable.m */,
-				EE7092541EC9C632004103BD /* UIView+encapsulationUIView.h */,
-				EE7092551EC9C632004103BD /* UIView+encapsulationUIView.m */,
 				EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */,
 				EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */,
 				EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */,
@@ -389,6 +391,40 @@
 				EE8F41521EF7BDB400DD5265 /* PingTransition.m */,
 			);
 			path = "动画";
+			sourceTree = "<group>";
+		};
+		EECCF0681FB3DDCC0016EAD5 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF0691FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.h */,
+				EECCF06A1FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m */,
+				EECCF06B1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.h */,
+				EECCF06C1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m */,
+				EECCF06D1FB3DDCC0016EAD5 /* UILabel+encapsulationlable.h */,
+				EECCF06E1FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m */,
+				EECCF06F1FB3DDCC0016EAD5 /* UIView+encapsulationUIView.h */,
+				EECCF0701FB3DDCC0016EAD5 /* UIView+encapsulationUIView.m */,
+			);
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		EECCF0811FB3FA740016EAD5 /* 自定义textview和textfield */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF0821FB3FAA50016EAD5 /* EncapsulationTextView.h */,
+				EECCF0831FB3FAA50016EAD5 /* EncapsulationTextView.m */,
+				EECCF0851FB3FAD10016EAD5 /* EncapsulationTextField.h */,
+				EECCF0861FB3FAD10016EAD5 /* EncapsulationTextField.m */,
+			);
+			path = "自定义textview和textfield";
+			sourceTree = "<group>";
+		};
+		EECCF0881FB3FC2F0016EAD5 /* 代码规范 */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF0921FB405AB0016EAD5 /* CodeSpecification.h */,
+			);
+			path = "代码规范";
 			sourceTree = "<group>";
 		};
 		EEFD0D7F1EF3EE780068F54A /* 倒计时 */ = {
@@ -732,19 +768,20 @@
 				EEFD0D881EF3EE780068F54A /* CountdownTimer.m in Sources */,
 				EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */,
 				EEFD0E0F1EF7A0080068F54A /* CommonlyUsedViewController.m in Sources */,
+				EECCF0721FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m in Sources */,
 				EEFD0E211EF7A0080068F54A /* SelectionSortController.m in Sources */,
 				EEFD0E111EF7A0080068F54A /* Account.m in Sources */,
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
-				EE70925B1EC9C632004103BD /* UIButton+encapsulationBtn.m in Sources */,
 				EEFD0E0E1EF7A0080068F54A /* AlgorithmTableController.m in Sources */,
 				EEFD0E161EF7A0080068F54A /* RequestViewModel.m in Sources */,
 				EEFD0E1E1EF7A0080068F54A /* BubblingController.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
 				EEEDF9981EEFAC4000F799E0 /* GlobeConst.m in Sources */,
 				EE7092571EC9C632004103BD /* NSDate+encapsulation.m in Sources */,
-				EE7092601EC9C632004103BD /* UIView+encapsulationUIView.m in Sources */,
+				EECCF0741FB3DDCC0016EAD5 /* UIView+encapsulationUIView.m in Sources */,
 				EE8F415D1EF7CB7B00DD5265 /* AnimationTableController.m in Sources */,
 				EEFD0E191EF7A0080068F54A /* RACView.m in Sources */,
+				EECCF0871FB3FAD10016EAD5 /* EncapsulationTextField.m in Sources */,
 				EEFD0E131EF7A0080068F54A /* LoginController.m in Sources */,
 				EE70925A1EC9C632004103BD /* UIAlertController+encapsulationUIAlertController.m in Sources */,
 				EE0406581F8096E40098B548 /* EncapsulationTableViewCell.m in Sources */,
@@ -752,16 +789,17 @@
 				EEFD0E1A1EF7A0080068F54A /* RACTableController.m in Sources */,
 				EEFD0E1D1EF7A0080068F54A /* Person.m in Sources */,
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
+				EECCF0711FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m in Sources */,
 				EE04065B1F80C2810098B548 /* DisTableViewController.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
-				EE70925F1EC9C632004103BD /* UILabel+encapsulationlable.m in Sources */,
+				EECCF0841FB3FAA50016EAD5 /* EncapsulationTextView.m in Sources */,
 				EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */,
 				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
+				EECCF0731FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m in Sources */,
 				EEFD0E1C1EF7A0080068F54A /* TableListController.m in Sources */,
 				EE7091F11EC98424004103BD /* main.m in Sources */,
 				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,
 				EE8F41531EF7BDB400DD5265 /* PingInvertTransition.m in Sources */,
-				EE70925E1EC9C632004103BD /* UIImageView+encapsulationImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
