@@ -69,25 +69,25 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0:
-             [self.navigationController pushViewController:[[CommonlyUsedViewController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"CommonlyUsedViewController") alloc] init] animated:YES];
             break;
         case 1:
-            [self.navigationController pushViewController:[[ScreenSdaptationViewController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"ScreenSdaptationViewController") alloc] init] animated:YES];
             break;
         case 2:
-            [self.navigationController pushViewController:[[CountdownViewController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"CountdownViewController") alloc] init] animated:YES];
             break;
         case 3:
-            [self.navigationController pushViewController:[[RACTableController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"RACTableController") alloc] init] animated:YES];
             break;
         case 4:
-            [self.navigationController pushViewController:[[AlgorithmTableController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"AlgorithmTableController") alloc] init] animated:YES];
             break;
         case 5:
-            [self.navigationController pushViewController:[[DisTableViewController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"DisTableViewController") alloc] init] animated:YES];
             break;
         case 6:
-            [self.navigationController pushViewController:[[PlaceHolderTableViewController alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"DisTableViewController") alloc] init] animated:YES];
             break;
         default:
             break;
