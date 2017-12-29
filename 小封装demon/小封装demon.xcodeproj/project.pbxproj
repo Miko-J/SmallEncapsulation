@@ -30,6 +30,10 @@
 		EE8F41531EF7BDB400DD5265 /* PingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F41501EF7BDB400DD5265 /* PingInvertTransition.m */; };
 		EE8F41541EF7BDB400DD5265 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F41521EF7BDB400DD5265 /* PingTransition.m */; };
 		EE8F415D1EF7CB7B00DD5265 /* AnimationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F415C1EF7CB7B00DD5265 /* AnimationTableController.m */; };
+		EEC190FC1FF60D920010A4F7 /* UITableView+PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC190F91FF60D920010A4F7 /* UITableView+PlaceHolderView.m */; };
+		EEC190FD1FF60D920010A4F7 /* UICollectionView+PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC190FA1FF60D920010A4F7 /* UICollectionView+PlaceHolderView.m */; };
+		EEC191031FF610C80010A4F7 /* PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC191021FF610C80010A4F7 /* PlaceHolderView.m */; };
+		EEC191061FF617570010A4F7 /* PlaceHolderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC191051FF617570010A4F7 /* PlaceHolderTableViewController.m */; };
 		EECCF0711FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF06A1FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m */; };
 		EECCF0721FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF06C1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m */; };
 		EECCF0731FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF06E1FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m */; };
@@ -132,6 +136,14 @@
 		EE8F41521EF7BDB400DD5265 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
 		EE8F415B1EF7CB7B00DD5265 /* AnimationTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableController.h; sourceTree = "<group>"; };
 		EE8F415C1EF7CB7B00DD5265 /* AnimationTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableController.m; sourceTree = "<group>"; };
+		EEC190F81FF60D920010A4F7 /* UICollectionView+PlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+PlaceHolderView.h"; sourceTree = "<group>"; };
+		EEC190F91FF60D920010A4F7 /* UITableView+PlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PlaceHolderView.m"; sourceTree = "<group>"; };
+		EEC190FA1FF60D920010A4F7 /* UICollectionView+PlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+PlaceHolderView.m"; sourceTree = "<group>"; };
+		EEC190FB1FF60D920010A4F7 /* UITableView+PlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PlaceHolderView.h"; sourceTree = "<group>"; };
+		EEC191011FF610C80010A4F7 /* PlaceHolderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceHolderView.h; sourceTree = "<group>"; };
+		EEC191021FF610C80010A4F7 /* PlaceHolderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderView.m; sourceTree = "<group>"; };
+		EEC191041FF617570010A4F7 /* PlaceHolderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceHolderTableViewController.h; sourceTree = "<group>"; };
+		EEC191051FF617570010A4F7 /* PlaceHolderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderTableViewController.m; sourceTree = "<group>"; };
 		EECCF0691FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+encapsulationBtn.h"; sourceTree = "<group>"; };
 		EECCF06A1FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+encapsulationBtn.m"; sourceTree = "<group>"; };
 		EECCF06B1FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+encapsulationImageView.h"; sourceTree = "<group>"; };
@@ -294,6 +306,9 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
+				EEC190F71FF60D5E0010A4F7 /* tableView:CollectionView占位图 */,
+				EEFD0D7F1EF3EE780068F54A /* 倒计时 */,
+				EEFD0D851EF3EE780068F54A /* 屏幕适配 */,
 				EECCF0881FB3FC2F0016EAD5 /* 代码规范 */,
 				EECCF0811FB3FA740016EAD5 /* 自定义textview和textfield */,
 				EE0406551F80967C0098B548 /* 自定义cell */,
@@ -345,9 +360,7 @@
 		EE7092221EC984BE004103BD /* EncapsulationFile封装的文件 */ = {
 			isa = PBXGroup;
 			children = (
-				EEFD0D7F1EF3EE780068F54A /* 倒计时 */,
 				EEFD0D821EF3EE780068F54A /* 分类文件 */,
-				EEFD0D851EF3EE780068F54A /* 屏幕适配 */,
 			);
 			name = "EncapsulationFile封装的文件";
 			path = EncapsulationFile;
@@ -391,6 +404,19 @@
 				EE8F41521EF7BDB400DD5265 /* PingTransition.m */,
 			);
 			path = "动画";
+			sourceTree = "<group>";
+		};
+		EEC190F71FF60D5E0010A4F7 /* tableView:CollectionView占位图 */ = {
+			isa = PBXGroup;
+			children = (
+				EEC190F81FF60D920010A4F7 /* UICollectionView+PlaceHolderView.h */,
+				EEC190FA1FF60D920010A4F7 /* UICollectionView+PlaceHolderView.m */,
+				EEC190FB1FF60D920010A4F7 /* UITableView+PlaceHolderView.h */,
+				EEC190F91FF60D920010A4F7 /* UITableView+PlaceHolderView.m */,
+				EEC191011FF610C80010A4F7 /* PlaceHolderView.h */,
+				EEC191021FF610C80010A4F7 /* PlaceHolderView.m */,
+			);
+			path = "tableView:CollectionView占位图";
 			sourceTree = "<group>";
 		};
 		EECCF0681FB3DDCC0016EAD5 /* UIResponder */ = {
@@ -469,6 +495,8 @@
 				EEFD0DF91EF7A0080068F54A /* RACTableController.m */,
 				EEFD0DDA1EF7A0080068F54A /* AlgorithmTableController.h */,
 				EEFD0DDB1EF7A0080068F54A /* AlgorithmTableController.m */,
+				EEC191041FF617570010A4F7 /* PlaceHolderTableViewController.h */,
+				EEC191051FF617570010A4F7 /* PlaceHolderTableViewController.m */,
 			);
 			path = FunctionDisplay;
 			sourceTree = "<group>";
@@ -769,9 +797,12 @@
 				EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */,
 				EEFD0E0F1EF7A0080068F54A /* CommonlyUsedViewController.m in Sources */,
 				EECCF0721FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m in Sources */,
+				EEC190FC1FF60D920010A4F7 /* UITableView+PlaceHolderView.m in Sources */,
+				EEC191061FF617570010A4F7 /* PlaceHolderTableViewController.m in Sources */,
 				EEFD0E211EF7A0080068F54A /* SelectionSortController.m in Sources */,
 				EEFD0E111EF7A0080068F54A /* Account.m in Sources */,
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
+				EEC191031FF610C80010A4F7 /* PlaceHolderView.m in Sources */,
 				EEFD0E0E1EF7A0080068F54A /* AlgorithmTableController.m in Sources */,
 				EEFD0E161EF7A0080068F54A /* RequestViewModel.m in Sources */,
 				EEFD0E1E1EF7A0080068F54A /* BubblingController.m in Sources */,
@@ -790,6 +821,7 @@
 				EEFD0E1D1EF7A0080068F54A /* Person.m in Sources */,
 				EE7091F41EC98424004103BD /* AppDelegate.m in Sources */,
 				EECCF0711FB3DDCC0016EAD5 /* UIButton+encapsulationBtn.m in Sources */,
+				EEC190FD1FF60D920010A4F7 /* UICollectionView+PlaceHolderView.m in Sources */,
 				EE04065B1F80C2810098B548 /* DisTableViewController.m in Sources */,
 				EE7092591EC9C632004103BD /* NSString+encapsulationNsstring.m in Sources */,
 				EECCF0841FB3FAA50016EAD5 /* EncapsulationTextView.m in Sources */,
