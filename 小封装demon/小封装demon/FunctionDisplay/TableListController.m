@@ -87,7 +87,7 @@
             [self.navigationController pushViewController:[[NSClassFromString(@"DisTableViewController") alloc] init] animated:YES];
             break;
         case 6:
-            [self.navigationController pushViewController:[[NSClassFromString(@"DisTableViewController") alloc] init] animated:YES];
+            [self.navigationController pushViewController:[[NSClassFromString(@"PlaceHolderTableViewController") alloc] init] animated:YES];
             break;
         default:
             break;
