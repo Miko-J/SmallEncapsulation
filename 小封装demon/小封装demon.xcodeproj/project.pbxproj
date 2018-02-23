@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE016B16201336ED006F19BC /* EncapsulationMutableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE016B15201336ED006F19BC /* EncapsulationMutableTableViewCell.m */; };
+		EE016B192013372E006F19BC /* DisMutiableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE016B182013372E006F19BC /* DisMutiableTableViewController.m */; };
 		EE0406581F8096E40098B548 /* EncapsulationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0406571F8096E40098B548 /* EncapsulationTableViewCell.m */; };
 		EE04065B1F80C2810098B548 /* DisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04065A1F80C2810098B548 /* DisTableViewController.m */; };
 		EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */; };
@@ -90,6 +92,10 @@
 		68247200E8C28DD156C12CB8 /* Pods-小封装demon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.release.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.release.xcconfig"; sourceTree = "<group>"; };
 		7C6442B4D820BE74D510A8E3 /* Pods-小封装demon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小封装demon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-小封装demon/Pods-小封装demon.debug.xcconfig"; sourceTree = "<group>"; };
 		CD5053486263CA89F1545FDA /* Pods____demon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____demon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE016B14201336ED006F19BC /* EncapsulationMutableTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncapsulationMutableTableViewCell.h; sourceTree = "<group>"; };
+		EE016B15201336ED006F19BC /* EncapsulationMutableTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncapsulationMutableTableViewCell.m; sourceTree = "<group>"; };
+		EE016B172013372E006F19BC /* DisMutiableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisMutiableTableViewController.h; sourceTree = "<group>"; };
+		EE016B182013372E006F19BC /* DisMutiableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisMutiableTableViewController.m; sourceTree = "<group>"; };
 		EE0406561F8096E40098B548 /* EncapsulationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncapsulationTableViewCell.h; sourceTree = "<group>"; };
 		EE0406571F8096E40098B548 /* EncapsulationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncapsulationTableViewCell.m; sourceTree = "<group>"; };
 		EE0406591F80C2810098B548 /* DisTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisTableViewController.h; sourceTree = "<group>"; };
@@ -255,7 +261,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EE0406551F80967C0098B548 /* 自定义cell */ = {
+		EE016B1320133679006F19BC /* 多种类型的cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE016B14201336ED006F19BC /* EncapsulationMutableTableViewCell.h */,
+				EE016B15201336ED006F19BC /* EncapsulationMutableTableViewCell.m */,
+				EE016B172013372E006F19BC /* DisMutiableTableViewController.h */,
+				EE016B182013372E006F19BC /* DisMutiableTableViewController.m */,
+			);
+			path = "多种类型的cell";
+			sourceTree = "<group>";
+		};
+		EE0406551F80967C0098B548 /* 自定义可重用cell */ = {
 			isa = PBXGroup;
 			children = (
 				EE0406561F8096E40098B548 /* EncapsulationTableViewCell.h */,
@@ -263,7 +280,7 @@
 				EE0406591F80C2810098B548 /* DisTableViewController.h */,
 				EE04065A1F80C2810098B548 /* DisTableViewController.m */,
 			);
-			path = "自定义cell";
+			path = "自定义可重用cell";
 			sourceTree = "<group>";
 		};
 		EE3168331ED973280064AC5B /* MBProgressHUD加载等待特效框 */ = {
@@ -306,12 +323,13 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
+				EE016B1320133679006F19BC /* 多种类型的cell */,
 				EEC190F71FF60D5E0010A4F7 /* tableView:CollectionView占位图 */,
 				EEFD0D7F1EF3EE780068F54A /* 倒计时 */,
 				EEFD0D851EF3EE780068F54A /* 屏幕适配 */,
 				EECCF0881FB3FC2F0016EAD5 /* 代码规范 */,
 				EECCF0811FB3FA740016EAD5 /* 自定义textview和textfield */,
-				EE0406551F80967C0098B548 /* 自定义cell */,
+				EE0406551F80967C0098B548 /* 自定义可重用cell */,
 				EEFD0E031EF7A0080068F54A /* 算法 */,
 				EEFD0DFE1EF7A0080068F54A /* 单利的封装和用法 */,
 				EEFD0DE01EF7A0080068F54A /* RAC */,
@@ -800,6 +818,7 @@
 				EEC190FC1FF60D920010A4F7 /* UITableView+PlaceHolderView.m in Sources */,
 				EEC191061FF617570010A4F7 /* PlaceHolderTableViewController.m in Sources */,
 				EEFD0E211EF7A0080068F54A /* SelectionSortController.m in Sources */,
+				EE016B192013372E006F19BC /* DisMutiableTableViewController.m in Sources */,
 				EEFD0E111EF7A0080068F54A /* Account.m in Sources */,
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
 				EEC191031FF610C80010A4F7 /* PlaceHolderView.m in Sources */,
@@ -828,6 +847,7 @@
 				EEFD0D891EF3EE780068F54A /* EncapsulationSystemControls.m in Sources */,
 				EE70925C1EC9C632004103BD /* UIColor+encapsulationUIColor.m in Sources */,
 				EECCF0731FB3DDCC0016EAD5 /* UILabel+encapsulationlable.m in Sources */,
+				EE016B16201336ED006F19BC /* EncapsulationMutableTableViewCell.m in Sources */,
 				EEFD0E1C1EF7A0080068F54A /* TableListController.m in Sources */,
 				EE7091F11EC98424004103BD /* main.m in Sources */,
 				EE7092561EC9C632004103BD /* NSData+encapsulationData.m in Sources */,

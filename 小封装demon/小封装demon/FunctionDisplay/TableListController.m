@@ -8,16 +8,9 @@
 
 #import "TableListController.h"
 #import "EncapsulationSystemControls.h"
-#import "CommonlyUsedViewController.h"
-#import "ScreenSdaptationViewController.h"   //屏幕适配
-#import "CountdownViewController.h"          //倒计时
-#import "RACTableController.h"               //RAC
-#import "AlgorithmTableController.h"         //算法
 #import "PingTransition.h"                   //动画
 #import "AnimationTableController.h"         //动画的表
 #import "ReactiveObjC.h"
-#import "DisTableViewController.h"
-#import "PlaceHolderTableViewController.h"   //占位图
 @interface TableListController ()<UINavigationControllerDelegate>
 @property (nonatomic, strong) NSArray *titleArray;
 @end
@@ -87,6 +80,9 @@
             [self.navigationController pushViewController:[[NSClassFromString(@"DisTableViewController") alloc] init] animated:YES];
             break;
         case 6:
+            [self.navigationController pushViewController:[[NSClassFromString(@"DisMutiableTableViewController") alloc] init] animated:YES];
+            break;
+        case 7:
             [self.navigationController pushViewController:[[NSClassFromString(@"PlaceHolderTableViewController") alloc] init] animated:YES];
             break;
         default:
@@ -115,7 +111,7 @@
 #pragma mark：-懒加载
 - (NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法",@"排序算法",@"自定义cell",@"tableView/collectionView占位图"];
+        _titleArray = @[@"常用控件",@"屏幕适配",@"倒计时",@"RAC的常用方法",@"排序算法",@"自定义复用cell",@"自定义多种类型cell",@"tableView/collectionView占位图"];
     }
     return _titleArray;
 }
