@@ -22,6 +22,19 @@
 @property (nonatomic, assign) BOOL firstReload;
 
 /**
+  占位文字
+ */
+@property (nonatomic, assign) NSString *placeHolderText;
+/**
+ 占位图
+ */
+@property (nonatomic, assign) NSString *placeHolderImageName;
+/**
+ 占位图距离顶部的距离
+ */
+@property (nonatomic, assign) NSInteger marginToTop;
+
+/**
  自定义站位图只需赋值给这个view,如无需自定义忽略此属性
  */
 @property (nonatomic, strong) UIView *xn_PlaceHolderView;

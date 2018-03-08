@@ -8,7 +8,6 @@
 
 #import "PlaceHolderView.h"
 @interface PlaceHolderView()
-@property (nonatomic, strong) UIImageView *placeHolderImageView;
 @end
 @implementation PlaceHolderView
 
@@ -33,6 +32,12 @@
         make.centerX.equalTo(self);
     }];
 }
+- (void)setMarginToTop:(NSInteger)marginToTop{
+    [self.placeHolderImageView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self).offset(marginToTop);
+        make.centerX.equalTo(self);
+    }];
+}
 #pragma mark: lazy loading
 - (UIImageView *)placeHolderImageView{
     if (!_placeHolderImageView) {
@@ -44,8 +49,9 @@
     if (!_placeHolderLable) {
         _placeHolderLable = [[UILabel alloc] init];
         _placeHolderLable.text = @"暂无数据";
+        _placeHolderLable.textColor = [UIColor lightGrayColor];
+        _placeHolderLable.font = [UIFont systemFontOfSize:15];
     }
     return _placeHolderLable;
 }
-
 @end

@@ -11,5 +11,7 @@
 @interface PlaceHolderView : UIView
 
 @property (nonatomic, strong) UILabel *placeHolderLable;
+@property (nonatomic, strong) UIImageView *placeHolderImageView;
+@property (nonatomic, assign) NSInteger marginToTop;
 
 @end
