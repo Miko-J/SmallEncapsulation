@@ -12,6 +12,7 @@
 		EE0406581F8096E40098B548 /* EncapsulationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0406571F8096E40098B548 /* EncapsulationTableViewCell.m */; };
 		EE04065B1F80C2810098B548 /* DisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04065A1F80C2810098B548 /* DisTableViewController.m */; };
 		EE0E213A1ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */; };
+		EE1ECF622092F23C00896303 /* UIViewController+encapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1ECF612092F23C00896303 /* UIViewController+encapsulation.m */; };
 		EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */; };
 		EE31683A1ED973280064AC5B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE3168361ED973280064AC5B /* MBProgressHUD.bundle */; };
 		EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168381ED973280064AC5B /* MBProgressHUD.m */; };
@@ -102,6 +103,8 @@
 		EE04065A1F80C2810098B548 /* DisTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisTableViewController.m; sourceTree = "<group>"; };
 		EE0E21381ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+encapsulation.h"; sourceTree = "<group>"; };
 		EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+encapsulation.m"; sourceTree = "<group>"; };
+		EE1ECF602092F23C00896303 /* UIViewController+encapsulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+encapsulation.h"; sourceTree = "<group>"; };
+		EE1ECF612092F23C00896303 /* UIViewController+encapsulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+encapsulation.m"; sourceTree = "<group>"; };
 		EE31682E1ED83E1B0064AC5B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		EE3168341ED973280064AC5B /* MBProgressHUD+XN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XN.h"; sourceTree = "<group>"; };
 		EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XN.m"; sourceTree = "<group>"; };
@@ -406,6 +409,8 @@
 				EE0E21391ED4644E00CDF202 /* NSMutableAttributedString+encapsulation.m */,
 				EEEDF9A11EF0C00500F799E0 /* NSObject+encapsulation.h */,
 				EEEDF9A21EF0C00500F799E0 /* NSObject+encapsulation.m */,
+				EE1ECF602092F23C00896303 /* UIViewController+encapsulation.h */,
+				EE1ECF612092F23C00896303 /* UIViewController+encapsulation.m */,
 			);
 			name = "Category分类";
 			path = Category;
@@ -823,6 +828,7 @@
 				EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */,
 				EEC191031FF610C80010A4F7 /* PlaceHolderView.m in Sources */,
 				EEFD0E0E1EF7A0080068F54A /* AlgorithmTableController.m in Sources */,
+				EE1ECF622092F23C00896303 /* UIViewController+encapsulation.m in Sources */,
 				EEFD0E161EF7A0080068F54A /* RequestViewModel.m in Sources */,
 				EEFD0E1E1EF7A0080068F54A /* BubblingController.m in Sources */,
 				EE7092581EC9C632004103BD /* NSNumber+encapsulationData.m in Sources */,
