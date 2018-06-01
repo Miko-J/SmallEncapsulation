@@ -16,6 +16,7 @@
 		EE3168391ED973280064AC5B /* MBProgressHUD+XN.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168351ED973280064AC5B /* MBProgressHUD+XN.m */; };
 		EE31683A1ED973280064AC5B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE3168361ED973280064AC5B /* MBProgressHUD.bundle */; };
 		EE31683B1ED973280064AC5B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3168381ED973280064AC5B /* MBProgressHUD.m */; };
+		EE4A6D3320C0F22F00E9B8A1 /* CodeKnowledge.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A6D3220C0F22F00E9B8A1 /* CodeKnowledge.m */; };
 		EE7091F11EC98424004103BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F01EC98424004103BD /* main.m */; };
 		EE7091F41EC98424004103BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7091F31EC98424004103BD /* AppDelegate.m */; };
 		EE7091FA1EC98424004103BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7091F81EC98424004103BD /* Main.storyboard */; };
@@ -111,6 +112,8 @@
 		EE3168361ED973280064AC5B /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		EE3168371ED973280064AC5B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		EE3168381ED973280064AC5B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EE4A6D3120C0F22F00E9B8A1 /* CodeKnowledge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeKnowledge.h; sourceTree = "<group>"; };
+		EE4A6D3220C0F22F00E9B8A1 /* CodeKnowledge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeKnowledge.m; sourceTree = "<group>"; };
 		EE7091EC1EC98424004103BD /* 小封装demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小封装demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7091F01EC98424004103BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7091F21EC98424004103BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -298,6 +301,15 @@
 			path = "MBProgressHUD加载等待特效框";
 			sourceTree = "<group>";
 		};
+		EE4A6D2E20C0F0D200E9B8A1 /* 知识点 */ = {
+			isa = PBXGroup;
+			children = (
+				EE4A6D3120C0F22F00E9B8A1 /* CodeKnowledge.h */,
+				EE4A6D3220C0F22F00E9B8A1 /* CodeKnowledge.m */,
+			);
+			path = "知识点";
+			sourceTree = "<group>";
+		};
 		EE7091E31EC98424004103BD = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +338,7 @@
 		EE7091EE1EC98424004103BD /* 小封装demon */ = {
 			isa = PBXGroup;
 			children = (
+				EE4A6D2E20C0F0D200E9B8A1 /* 知识点 */,
 				EE016B1320133679006F19BC /* 多种类型的cell */,
 				EEC190F71FF60D5E0010A4F7 /* tableView:CollectionView占位图 */,
 				EEFD0D7F1EF3EE780068F54A /* 倒计时 */,
@@ -822,6 +835,7 @@
 				EECCF0721FB3DDCC0016EAD5 /* UIImageView+encapsulationImageView.m in Sources */,
 				EEC190FC1FF60D920010A4F7 /* UITableView+PlaceHolderView.m in Sources */,
 				EEC191061FF617570010A4F7 /* PlaceHolderTableViewController.m in Sources */,
+				EE4A6D3320C0F22F00E9B8A1 /* CodeKnowledge.m in Sources */,
 				EEFD0E211EF7A0080068F54A /* SelectionSortController.m in Sources */,
 				EE016B192013372E006F19BC /* DisMutiableTableViewController.m in Sources */,
 				EEFD0E111EF7A0080068F54A /* Account.m in Sources */,
